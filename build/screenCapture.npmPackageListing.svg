@@ -1,307 +1,307 @@
 <svg height="4862" width="720" xmlns="http://www.w3.org/2000/svg">
 <rect height="4862" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">  0.  2017-04-04 09:06:52 +0000  4293637 byte  .</tspan>
-<tspan x="10" y="42">  1.  2017-04-04 09:06:52 +0000    87891 byte  CHANGELOG.md</tspan>
-<tspan x="10" y="58">  2.  2017-04-04 09:06:52 +0000     1976 byte  LICENSE</tspan>
-<tspan x="10" y="74">  3.  2017-04-04 09:06:52 +0000    25632 byte  README.md</tspan>
-<tspan x="10" y="90">  4.  2017-04-04 09:06:52 +0000     1046 byte  bench/alloc.js</tspan>
-<tspan x="10" y="106">  5.  2017-04-04 09:06:52 +0000      509 byte  bench/bench.json</tspan>
-<tspan x="10" y="122">  6.  2017-04-04 09:06:52 +0000      756 byte  bench/bench.proto</tspan>
-<tspan x="10" y="138">  7.  2017-04-04 09:06:52 +0000      304 byte  bench/fromJSON.js</tspan>
-<tspan x="10" y="154">  8.  2017-04-04 09:06:52 +0000     2660 byte  bench/index.html</tspan>
-<tspan x="10" y="170">  9.  2017-04-04 09:06:52 +0000     3584 byte  bench/index.js</tspan>
-<tspan x="10" y="186"> 10.  2017-04-04 09:06:52 +0000     3637 byte  bench/prof.js</tspan>
-<tspan x="10" y="202"> 11.  2017-04-04 09:06:52 +0000     4659 byte  bench/read.js</tspan>
-<tspan x="10" y="218"> 12.  2017-04-04 09:06:52 +0000     1522 byte  bench/suite.js</tspan>
-<tspan x="10" y="234"> 13.  2017-04-04 09:06:52 +0000     6227 byte  bench/write.js</tspan>
-<tspan x="10" y="250"> 14.  2017-04-04 09:06:52 +0000      210 byte  bin/pbjs</tspan>
-<tspan x="10" y="266"> 15.  2017-04-04 09:06:52 +0000      210 byte  bin/pbts</tspan>
-<tspan x="10" y="282"> 16.  2017-04-04 09:06:52 +0000     1770 byte  cli/LICENSE</tspan>
-<tspan x="10" y="298"> 17.  2017-04-04 09:06:52 +0000     6778 byte  cli/README.md</tspan>
-<tspan x="10" y="314"> 18.  2017-04-04 09:06:52 +0000      203 byte  cli/bin/pbjs</tspan>
-<tspan x="10" y="330"> 19.  2017-04-04 09:06:52 +0000      203 byte  cli/bin/pbts</tspan>
-<tspan x="10" y="346"> 20.  2017-04-04 09:06:52 +0000       96 byte  cli/index.d.ts</tspan>
-<tspan x="10" y="362"> 21.  2017-04-04 09:06:52 +0000       85 byte  cli/index.js</tspan>
-<tspan x="10" y="378"> 22.  2017-04-04 09:06:52 +0000      466 byte  cli/lib/tsd-jsdoc.json</tspan>
-<tspan x="10" y="394"> 23.  2017-04-04 09:06:52 +0000     1091 byte  cli/lib/tsd-jsdoc/LICENSE</tspan>
-<tspan x="10" y="410"> 24.  2017-04-04 09:06:52 +0000      946 byte  cli/lib/tsd-jsdoc/README.md</tspan>
-<tspan x="10" y="426"> 25.  2017-04-04 09:06:52 +0000    15972 byte  cli/lib/tsd-jsdoc/publish.js</tspan>
-<tspan x="10" y="442"> 26.  2017-04-04 09:06:52 +0000        2 byte  cli/package.json</tspan>
-<tspan x="10" y="458"> 27.  2017-04-04 09:06:52 +0000      815 byte  cli/package.standalone.json</tspan>
-<tspan x="10" y="474"> 28.  2017-04-04 09:06:52 +0000      370 byte  cli/pbjs.d.ts</tspan>
-<tspan x="10" y="490"> 29.  2017-04-04 09:06:52 +0000    11471 byte  cli/pbjs.js</tspan>
-<tspan x="10" y="506"> 30.  2017-04-04 09:06:52 +0000      370 byte  cli/pbts.d.ts</tspan>
-<tspan x="10" y="522"> 31.  2017-04-04 09:06:52 +0000     5463 byte  cli/pbts.js</tspan>
-<tspan x="10" y="538"> 32.  2017-04-04 09:06:52 +0000     1013 byte  cli/targets/json-module.js</tspan>
-<tspan x="10" y="554"> 33.  2017-04-04 09:06:52 +0000      204 byte  cli/targets/json.js</tspan>
-<tspan x="10" y="570"> 34.  2017-04-04 09:06:52 +0000     9405 byte  cli/targets/proto.js</tspan>
-<tspan x="10" y="586"> 35.  2017-04-04 09:06:52 +0000      295 byte  cli/targets/proto2.js</tspan>
-<tspan x="10" y="602"> 36.  2017-04-04 09:06:52 +0000      295 byte  cli/targets/proto3.js</tspan>
-<tspan x="10" y="618"> 37.  2017-04-04 09:06:52 +0000      989 byte  cli/targets/static-module.js</tspan>
-<tspan x="10" y="634"> 38.  2017-04-04 09:06:52 +0000    26132 byte  cli/targets/static.js</tspan>
-<tspan x="10" y="650"> 39.  2017-04-04 09:06:52 +0000     7513 byte  cli/util.js</tspan>
-<tspan x="10" y="666"> 40.  2017-04-04 09:06:52 +0000      105 byte  cli/wrappers/amd.js</tspan>
-<tspan x="10" y="682"> 41.  2017-04-04 09:06:52 +0000       95 byte  cli/wrappers/commonjs.js</tspan>
-<tspan x="10" y="698"> 42.  2017-04-04 09:06:52 +0000      429 byte  cli/wrappers/default.js</tspan>
-<tspan x="10" y="714"> 43.  2017-04-04 09:06:52 +0000       86 byte  cli/wrappers/es6.js</tspan>
-<tspan x="10" y="730"> 44.  2017-04-04 09:06:52 +0000     4586 byte  config/eslint.json</tspan>
-<tspan x="10" y="746"> 45.  2017-04-04 09:06:52 +0000       62 byte  config/istanbul.json</tspan>
-<tspan x="10" y="762"> 46.  2017-04-04 09:06:52 +0000     1511 byte  config/jsdoc.json</tspan>
-<tspan x="10" y="778"> 47.  2017-04-04 09:06:52 +0000      540 byte  config/tslint.json</tspan>
-<tspan x="10" y="794"> 48.  2017-04-04 09:06:52 +0000       57 byte  debug.d.ts</tspan>
-<tspan x="10" y="810"> 49.  2017-04-04 09:06:52 +0000      111 byte  debug.js</tspan>
-<tspan x="10" y="826"> 50.  2017-04-04 09:06:52 +0000      842 byte  dist/README.md</tspan>
-<tspan x="10" y="842"> 51.  2017-04-04 09:06:52 +0000      944 byte  dist/light/README.md</tspan>
-<tspan x="10" y="858"> 52.  2017-04-04 09:06:52 +0000   216334 byte  dist/light/protobuf.js</tspan>
-<tspan x="10" y="874"> 53.  2017-04-04 09:06:52 +0000   263405 byte  dist/light/protobuf.js.map</tspan>
-<tspan x="10" y="890"> 54.  2017-04-04 09:06:52 +0000    57750 byte  dist/light/protobuf.min.js</tspan>
-<tspan x="10" y="906"> 55.  2017-04-04 09:06:52 +0000    16383 byte  dist/light/protobuf.min.js.gz</tspan>
-<tspan x="10" y="922"> 56.  2017-04-04 09:06:52 +0000   304002 byte  dist/light/protobuf.min.js.map</tspan>
-<tspan x="10" y="938"> 57.  2017-04-04 09:06:52 +0000      930 byte  dist/minimal/README.md</tspan>
-<tspan x="10" y="954"> 58.  2017-04-04 09:06:52 +0000    79097 byte  dist/minimal/protobuf.js</tspan>
-<tspan x="10" y="970"> 59.  2017-04-04 09:06:52 +0000    97190 byte  dist/minimal/protobuf.js.map</tspan>
-<tspan x="10" y="986"> 60.  2017-04-04 09:06:52 +0000    20866 byte  dist/minimal/protobuf.min.js</tspan>
-<tspan x="10" y="1002"> 61.  2017-04-04 09:06:52 +0000     6702 byte  dist/minimal/protobuf.min.js.gz</tspan>
-<tspan x="10" y="1018"> 62.  2017-04-04 09:06:52 +0000   114957 byte  dist/minimal/protobuf.min.js.map</tspan>
-<tspan x="10" y="1034"> 63.  2017-04-04 09:06:52 +0000   252637 byte  dist/protobuf.js</tspan>
-<tspan x="10" y="1050"> 64.  2017-04-04 09:06:52 +0000   308895 byte  dist/protobuf.js.map</tspan>
-<tspan x="10" y="1066"> 65.  2017-04-04 09:06:52 +0000    67046 byte  dist/protobuf.min.js</tspan>
-<tspan x="10" y="1082"> 66.  2017-04-04 09:06:52 +0000    19486 byte  dist/protobuf.min.js.gz</tspan>
-<tspan x="10" y="1098"> 67.  2017-04-04 09:06:52 +0000   357271 byte  dist/protobuf.min.js.map</tspan>
-<tspan x="10" y="1114"> 68.  2017-04-04 09:06:52 +0000     1503 byte  google/LICENSE</tspan>
-<tspan x="10" y="1130"> 69.  2017-04-04 09:06:52 +0000      191 byte  google/README.md</tspan>
-<tspan x="10" y="1146"> 70.  2017-04-04 09:06:52 +0000     2069 byte  google/api/annotations.json</tspan>
-<tspan x="10" y="1162"> 71.  2017-04-04 09:06:52 +0000      198 byte  google/api/annotations.proto</tspan>
-<tspan x="10" y="1178"> 72.  2017-04-04 09:06:52 +0000     2087 byte  google/api/http.json</tspan>
-<tspan x="10" y="1194"> 73.  2017-04-04 09:06:52 +0000      474 byte  google/api/http.proto</tspan>
-<tspan x="10" y="1210"> 74.  2017-04-04 09:06:52 +0000     2951 byte  google/protobuf/api.json</tspan>
-<tspan x="10" y="1226"> 75.  2017-04-04 09:06:52 +0000      642 byte  google/protobuf/api.proto</tspan>
-<tspan x="10" y="1242"> 76.  2017-04-04 09:06:52 +0000    21142 byte  google/protobuf/descriptor.json</tspan>
-<tspan x="10" y="1258"> 77.  2017-04-04 09:06:52 +0000     6892 byte  google/protobuf/descriptor.proto</tspan>
-<tspan x="10" y="1274"> 78.  2017-04-04 09:06:52 +0000      363 byte  google/protobuf/field_mask.json</tspan>
-<tspan x="10" y="1290"> 79.  2017-04-04 09:06:52 +0000      106 byte  google/protobuf/field_mask.proto</tspan>
-<tspan x="10" y="1306"> 80.  2017-04-04 09:06:52 +0000      332 byte  google/protobuf/source_context.json</tspan>
-<tspan x="10" y="1322"> 81.  2017-04-04 09:06:52 +0000      105 byte  google/protobuf/source_context.proto</tspan>
-<tspan x="10" y="1338"> 82.  2017-04-04 09:06:52 +0000     5470 byte  google/protobuf/type.json</tspan>
-<tspan x="10" y="1354"> 83.  2017-04-04 09:06:52 +0000     1675 byte  google/protobuf/type.proto</tspan>
-<tspan x="10" y="1370"> 84.  2017-04-04 09:06:52 +0000    95192 byte  index.d.ts</tspan>
-<tspan x="10" y="1386"> 85.  2017-04-04 09:06:52 +0000       89 byte  index.js</tspan>
-<tspan x="10" y="1402"> 86.  2017-04-04 09:06:52 +0000     1505 byte  lib/aspromise/LICENSE</tspan>
-<tspan x="10" y="1418"> 87.  2017-04-04 09:06:52 +0000      464 byte  lib/aspromise/README.md</tspan>
-<tspan x="10" y="1434"> 88.  2017-04-04 09:06:52 +0000      380 byte  lib/aspromise/index.d.ts</tspan>
-<tspan x="10" y="1450"> 89.  2017-04-04 09:06:52 +0000     1272 byte  lib/aspromise/index.js</tspan>
-<tspan x="10" y="1466"> 90.  2017-04-04 09:06:52 +0000      581 byte  lib/aspromise/package.json</tspan>
-<tspan x="10" y="1482"> 91.  2017-04-04 09:06:52 +0000     4455 byte  lib/aspromise/tests/index.js</tspan>
-<tspan x="10" y="1498"> 92.  2017-04-04 09:06:52 +0000     1505 byte  lib/base64/LICENSE</tspan>
-<tspan x="10" y="1514"> 93.  2017-04-04 09:06:52 +0000      705 byte  lib/base64/README.md</tspan>
-<tspan x="10" y="1530"> 94.  2017-04-04 09:06:52 +0000     1126 byte  lib/base64/index.d.ts</tspan>
-<tspan x="10" y="1546"> 95.  2017-04-04 09:06:52 +0000     3679 byte  lib/base64/index.js</tspan>
-<tspan x="10" y="1562"> 96.  2017-04-04 09:06:52 +0000      574 byte  lib/base64/package.json</tspan>
-<tspan x="10" y="1578"> 97.  2017-04-04 09:06:52 +0000     1371 byte  lib/base64/tests/index.js</tspan>
-<tspan x="10" y="1594"> 98.  2017-04-04 09:06:52 +0000     1505 byte  lib/codegen/LICENSE</tspan>
-<tspan x="10" y="1610"> 99.  2017-04-04 09:06:52 +0000      708 byte  lib/codegen/README.md</tspan>
-<tspan x="10" y="1626">100.  2017-04-04 09:06:52 +0000     1129 byte  lib/codegen/index.d.ts</tspan>
-<tspan x="10" y="1642">101.  2017-04-04 09:06:52 +0000     5301 byte  lib/codegen/index.js</tspan>
-<tspan x="10" y="1658">102.  2017-04-04 09:06:52 +0000      372 byte  lib/codegen/package.json</tspan>
-<tspan x="10" y="1674">103.  2017-04-04 09:06:52 +0000       73 byte  lib/codegen/test.ts</tspan>
-<tspan x="10" y="1690">104.  2017-04-04 09:06:52 +0000     1089 byte  lib/deep-equal/LICENSE</tspan>
-<tspan x="10" y="1706">105.  2017-04-04 09:06:52 +0000      174 byte  lib/deep-equal/README.md</tspan>
-<tspan x="10" y="1722">106.  2017-04-04 09:06:52 +0000     3212 byte  lib/deep-equal/index.js</tspan>
-<tspan x="10" y="1738">107.  2017-04-04 09:06:52 +0000      659 byte  lib/deep-equal/lib/is_arguments.js</tspan>
-<tspan x="10" y="1754">108.  2017-04-04 09:06:52 +0000      209 byte  lib/deep-equal/lib/keys.js</tspan>
-<tspan x="10" y="1770">109.  2017-04-04 09:06:52 +0000     1505 byte  lib/eventemitter/LICENSE</tspan>
-<tspan x="10" y="1786">110.  2017-04-04 09:06:52 +0000      822 byte  lib/eventemitter/README.md</tspan>
-<tspan x="10" y="1802">111.  2017-04-04 09:06:52 +0000     1316 byte  lib/eventemitter/index.d.ts</tspan>
-<tspan x="10" y="1818">112.  2017-04-04 09:06:52 +0000     2088 byte  lib/eventemitter/index.js</tspan>
-<tspan x="10" y="1834">113.  2017-04-04 09:06:52 +0000      554 byte  lib/eventemitter/package.json</tspan>
-<tspan x="10" y="1850">114.  2017-04-04 09:06:52 +0000     1488 byte  lib/eventemitter/tests/index.js</tspan>
-<tspan x="10" y="1866">115.  2017-04-04 09:06:52 +0000     1505 byte  lib/fetch/LICENSE</tspan>
-<tspan x="10" y="1882">116.  2017-04-04 09:06:52 +0000      505 byte  lib/fetch/README.md</tspan>
-<tspan x="10" y="1898">117.  2017-04-04 09:06:52 +0000     1648 byte  lib/fetch/index.d.ts</tspan>
-<tspan x="10" y="1914">118.  2017-04-04 09:06:52 +0000     4011 byte  lib/fetch/index.js</tspan>
-<tspan x="10" y="1930">119.  2017-04-04 09:06:52 +0000      684 byte  lib/fetch/package.json</tspan>
-<tspan x="10" y="1946">120.  2017-04-04 09:06:52 +0000        8 byte  lib/fetch/tests/data/file.txt</tspan>
-<tspan x="10" y="1962">121.  2017-04-04 09:06:52 +0000     5929 byte  lib/fetch/tests/index.js</tspan>
-<tspan x="10" y="1978">122.  2017-04-04 09:06:52 +0000     1505 byte  lib/float/LICENSE</tspan>
-<tspan x="10" y="1994">123.  2017-04-04 09:06:52 +0000     4004 byte  lib/float/README.md</tspan>
-<tspan x="10" y="2010">124.  2017-04-04 09:06:52 +0000     1966 byte  lib/float/bench/index.js</tspan>
-<tspan x="10" y="2026">125.  2017-04-04 09:06:52 +0000     1522 byte  lib/float/bench/suite.js</tspan>
-<tspan x="10" y="2042">126.  2017-04-04 09:06:52 +0000     2543 byte  lib/float/index.d.ts</tspan>
-<tspan x="10" y="2058">127.  2017-04-04 09:06:52 +0000    11448 byte  lib/float/index.js</tspan>
-<tspan x="10" y="2074">128.  2017-04-04 09:06:52 +0000      738 byte  lib/float/package.json</tspan>
-<tspan x="10" y="2090">129.  2017-04-04 09:06:52 +0000     3102 byte  lib/float/tests/index.js</tspan>
-<tspan x="10" y="2106">130.  2017-04-04 09:06:52 +0000     1505 byte  lib/inquire/LICENSE</tspan>
-<tspan x="10" y="2122">131.  2017-04-04 09:06:52 +0000      431 byte  lib/inquire/README.md</tspan>
-<tspan x="10" y="2138">132.  2017-04-04 09:06:52 +0000      279 byte  lib/inquire/index.d.ts</tspan>
-<tspan x="10" y="2154">133.  2017-04-04 09:06:52 +0000      544 byte  lib/inquire/index.js</tspan>
-<tspan x="10" y="2170">134.  2017-04-04 09:06:52 +0000      602 byte  lib/inquire/package.json</tspan>
-<tspan x="10" y="2186">135.  2017-04-04 09:06:52 +0000       23 byte  lib/inquire/tests/data/array.js</tspan>
-<tspan x="10" y="2202">136.  2017-04-04 09:06:52 +0000       22 byte  lib/inquire/tests/data/emptyArray.js</tspan>
-<tspan x="10" y="2218">137.  2017-04-04 09:06:52 +0000       22 byte  lib/inquire/tests/data/emptyObject.js</tspan>
-<tspan x="10" y="2234">138.  2017-04-04 09:06:52 +0000       28 byte  lib/inquire/tests/data/object.js</tspan>
-<tspan x="10" y="2250">139.  2017-04-04 09:06:52 +0000      792 byte  lib/inquire/tests/index.js</tspan>
-<tspan x="10" y="2266">140.  2017-04-04 09:06:52 +0000     1505 byte  lib/path/LICENSE</tspan>
-<tspan x="10" y="2282">141.  2017-04-04 09:06:52 +0000      700 byte  lib/path/README.md</tspan>
-<tspan x="10" y="2298">142.  2017-04-04 09:06:52 +0000      838 byte  lib/path/index.d.ts</tspan>
-<tspan x="10" y="2314">143.  2017-04-04 09:06:52 +0000     2049 byte  lib/path/index.js</tspan>
-<tspan x="10" y="2330">144.  2017-04-04 09:06:52 +0000      589 byte  lib/path/package.json</tspan>
-<tspan x="10" y="2346">145.  2017-04-04 09:06:52 +0000     2089 byte  lib/path/tests/index.js</tspan>
-<tspan x="10" y="2362">146.  2017-04-04 09:06:52 +0000     5838 byte  lib/polyfill.js</tspan>
-<tspan x="10" y="2378">147.  2017-04-04 09:06:52 +0000     1505 byte  lib/pool/LICENSE</tspan>
-<tspan x="10" y="2394">148.  2017-04-04 09:06:52 +0000      510 byte  lib/pool/README.md</tspan>
-<tspan x="10" y="2410">149.  2017-04-04 09:06:52 +0000      905 byte  lib/pool/index.d.ts</tspan>
-<tspan x="10" y="2426">150.  2017-04-04 09:06:52 +0000     1240 byte  lib/pool/index.js</tspan>
-<tspan x="10" y="2442">151.  2017-04-04 09:06:52 +0000      533 byte  lib/pool/package.json</tspan>
-<tspan x="10" y="2458">152.  2017-04-04 09:06:52 +0000     1477 byte  lib/pool/tests/index.js</tspan>
-<tspan x="10" y="2474">153.  2017-04-04 09:06:52 +0000     1212 byte  lib/prelude.js</tspan>
-<tspan x="10" y="2490">154.  2017-04-04 09:06:52 +0000      660 byte  lib/tape-adapter.js</tspan>
-<tspan x="10" y="2506">155.  2017-04-04 09:06:52 +0000     1505 byte  lib/utf8/LICENSE</tspan>
-<tspan x="10" y="2522">156.  2017-04-04 09:06:52 +0000      649 byte  lib/utf8/README.md</tspan>
-<tspan x="10" y="2538">157.  2017-04-04 09:06:52 +0000      758 byte  lib/utf8/index.d.ts</tspan>
-<tspan x="10" y="2554">158.  2017-04-04 09:06:52 +0000     3373 byte  lib/utf8/index.js</tspan>
-<tspan x="10" y="2570">159.  2017-04-04 09:06:52 +0000      551 byte  lib/utf8/package.json</tspan>
-<tspan x="10" y="2586">160.  2017-04-04 09:06:52 +0000    14381 byte  lib/utf8/tests/data/utf8.txt</tspan>
-<tspan x="10" y="2602">161.  2017-04-04 09:06:52 +0000     2244 byte  lib/utf8/tests/index.js</tspan>
-<tspan x="10" y="2618">162.  2017-04-04 09:06:52 +0000       57 byte  light.d.ts</tspan>
-<tspan x="10" y="2634">163.  2017-04-04 09:06:52 +0000       94 byte  light.js</tspan>
-<tspan x="10" y="2650">164.  2017-04-04 09:06:52 +0000       57 byte  minimal.d.ts</tspan>
-<tspan x="10" y="2666">165.  2017-04-04 09:06:52 +0000      100 byte  minimal.js</tspan>
-<tspan x="10" y="2682">166.  2017-04-04 09:06:52 +0000     5580 byte  package.json</tspan>
-<tspan x="10" y="2698">167.  2017-04-04 09:06:52 +0000      147 byte  runtime.js</tspan>
-<tspan x="10" y="2714">168.  2017-04-04 09:06:52 +0000     3841 byte  scripts/bundle.js</tspan>
-<tspan x="10" y="2730">169.  2017-04-04 09:06:52 +0000     4806 byte  scripts/changelog.js</tspan>
-<tspan x="10" y="2746">170.  2017-04-04 09:06:52 +0000      652 byte  scripts/gencommons.js</tspan>
-<tspan x="10" y="2762">171.  2017-04-04 09:06:52 +0000     2054 byte  scripts/gentests.js</tspan>
-<tspan x="10" y="2778">172.  2017-04-04 09:06:52 +0000      977 byte  scripts/gulpfile.js</tspan>
-<tspan x="10" y="2794">173.  2017-04-04 09:06:52 +0000      352 byte  scripts/pages.js</tspan>
-<tspan x="10" y="2810">174.  2017-04-04 09:06:52 +0000     1264 byte  scripts/postinstall.js</tspan>
-<tspan x="10" y="2826">175.  2017-04-04 09:06:52 +0000      336 byte  scripts/prepublish.js</tspan>
-<tspan x="10" y="2842">176.  2017-04-04 09:06:52 +0000     6165 byte  src/class.js</tspan>
-<tspan x="10" y="2858">177.  2017-04-04 09:06:52 +0000     5345 byte  src/common.js</tspan>
-<tspan x="10" y="2874">178.  2017-04-04 09:06:52 +0000    11061 byte  src/converter.js</tspan>
-<tspan x="10" y="2890">179.  2017-04-04 09:06:52 +0000     3798 byte  src/decoder.js</tspan>
-<tspan x="10" y="2906">180.  2017-04-04 09:06:52 +0000     3761 byte  src/encoder.js</tspan>
-<tspan x="10" y="2922">181.  2017-04-04 09:06:52 +0000     3929 byte  src/enum.js</tspan>
-<tspan x="10" y="2938">182.  2017-04-04 09:06:52 +0000     8635 byte  src/field.js</tspan>
-<tspan x="10" y="2954">183.  2017-04-04 09:06:52 +0000     2269 byte  src/index-debug.js</tspan>
-<tspan x="10" y="2970">184.  2017-04-04 09:06:52 +0000     3672 byte  src/index-light.js</tspan>
-<tspan x="10" y="2986">185.  2017-04-04 09:06:52 +0000     1343 byte  src/index-minimal.js</tspan>
-<tspan x="10" y="3002">186.  2017-04-04 09:06:52 +0000      364 byte  src/index.js</tspan>
-<tspan x="10" y="3018">187.  2017-04-04 09:06:52 +0000     2905 byte  src/mapfield.js</tspan>
-<tspan x="10" y="3034">188.  2017-04-04 09:06:52 +0000     3823 byte  src/message.js</tspan>
-<tspan x="10" y="3050">189.  2017-04-04 09:06:52 +0000     4315 byte  src/method.js</tspan>
-<tspan x="10" y="3066">190.  2017-04-04 09:06:52 +0000    13729 byte  src/namespace.js</tspan>
-<tspan x="10" y="3082">191.  2017-04-04 09:06:52 +0000     5150 byte  src/object.js</tspan>
-<tspan x="10" y="3098">192.  2017-04-04 09:06:52 +0000     4580 byte  src/oneof.js</tspan>
-<tspan x="10" y="3114">193.  2017-04-04 09:06:52 +0000    22087 byte  src/parse.js</tspan>
-<tspan x="10" y="3130">194.  2017-04-04 09:06:52 +0000    11520 byte  src/reader.js</tspan>
-<tspan x="10" y="3146">195.  2017-04-04 09:06:52 +0000     1089 byte  src/reader_buffer.js</tspan>
-<tspan x="10" y="3162">196.  2017-04-04 09:06:52 +0000    12465 byte  src/root.js</tspan>
-<tspan x="10" y="3178">197.  2017-04-04 09:06:52 +0000     1207 byte  src/rpc.js</tspan>
-<tspan x="10" y="3194">198.  2017-04-04 09:06:52 +0000     5185 byte  src/rpc/service.js</tspan>
-<tspan x="10" y="3210">199.  2017-04-04 09:06:52 +0000     5092 byte  src/service.js</tspan>
-<tspan x="10" y="3226">200.  2017-04-04 09:06:52 +0000     8329 byte  src/tokenize.js</tspan>
-<tspan x="10" y="3242">201.  2017-04-04 09:06:52 +0000    18192 byte  src/type.js</tspan>
-<tspan x="10" y="3258">202.  2017-04-04 09:06:52 +0000     5717 byte  src/types.js</tspan>
-<tspan x="10" y="3274">203.  2017-04-04 09:06:52 +0000     1632 byte  src/util.js</tspan>
-<tspan x="10" y="3290">204.  2017-04-04 09:06:52 +0000     5593 byte  src/util/longbits.js</tspan>
-<tspan x="10" y="3306">205.  2017-04-04 09:06:52 +0000    12739 byte  src/util/minimal.js</tspan>
-<tspan x="10" y="3322">206.  2017-04-04 09:06:52 +0000     6312 byte  src/verifier.js</tspan>
-<tspan x="10" y="3338">207.  2017-04-04 09:06:52 +0000    12354 byte  src/writer.js</tspan>
-<tspan x="10" y="3354">208.  2017-04-04 09:06:52 +0000     2310 byte  src/writer_buffer.js</tspan>
-<tspan x="10" y="3370">209.  2017-04-04 09:06:52 +0000      166 byte  stub-long.d.ts</tspan>
-<tspan x="10" y="3386">210.  2017-04-04 09:06:52 +0000      165 byte  stub-node.d.ts</tspan>
-<tspan x="10" y="3402">211.  2017-04-04 09:06:52 +0000      595 byte  tests/README.md</tspan>
-<tspan x="10" y="3418">212.  2017-04-04 09:06:52 +0000     1269 byte  tests/api_class.js</tspan>
-<tspan x="10" y="3434">213.  2017-04-04 09:06:52 +0000      632 byte  tests/api_common.js</tspan>
-<tspan x="10" y="3450">214.  2017-04-04 09:06:52 +0000     8558 byte  tests/api_converters.js</tspan>
-<tspan x="10" y="3466">215.  2017-04-04 09:06:52 +0000     2135 byte  tests/api_enum.js</tspan>
-<tspan x="10" y="3482">216.  2017-04-04 09:06:52 +0000     3190 byte  tests/api_field.js</tspan>
-<tspan x="10" y="3498">217.  2017-04-04 09:06:52 +0000      946 byte  tests/api_inheritance.js</tspan>
-<tspan x="10" y="3514">218.  2017-04-04 09:06:52 +0000     5153 byte  tests/api_longbits.js</tspan>
-<tspan x="10" y="3530">219.  2017-04-04 09:06:52 +0000      519 byte  tests/api_mapfield.js</tspan>
-<tspan x="10" y="3546">220.  2017-04-04 09:06:52 +0000     4663 byte  tests/api_namespace.js</tspan>
-<tspan x="10" y="3562">221.  2017-04-04 09:06:52 +0000     1346 byte  tests/api_object.js</tspan>
-<tspan x="10" y="3578">222.  2017-04-04 09:06:52 +0000     1679 byte  tests/api_oneof.js</tspan>
-<tspan x="10" y="3594">223.  2017-04-04 09:06:52 +0000     1529 byte  tests/api_reader-writer-reuse.js</tspan>
-<tspan x="10" y="3610">224.  2017-04-04 09:06:52 +0000     1604 byte  tests/api_root-deferred.js</tspan>
-<tspan x="10" y="3626">225.  2017-04-04 09:06:52 +0000     1268 byte  tests/api_root-expose.js</tspan>
-<tspan x="10" y="3642">226.  2017-04-04 09:06:52 +0000     3347 byte  tests/api_root.js</tspan>
-<tspan x="10" y="3658">227.  2017-04-04 09:06:52 +0000     7163 byte  tests/api_service-rpc-streaming.js</tspan>
-<tspan x="10" y="3674">228.  2017-04-04 09:06:52 +0000     4306 byte  tests/api_service-rpc.js</tspan>
-<tspan x="10" y="3690">229.  2017-04-04 09:06:52 +0000     1664 byte  tests/api_service.js</tspan>
-<tspan x="10" y="3706">230.  2017-04-04 09:06:52 +0000     2908 byte  tests/api_tokenize.js</tspan>
-<tspan x="10" y="3722">231.  2017-04-04 09:06:52 +0000     3868 byte  tests/api_type.js</tspan>
-<tspan x="10" y="3738">232.  2017-04-04 09:06:52 +0000     2924 byte  tests/api_util.js</tspan>
-<tspan x="10" y="3754">233.  2017-04-04 09:06:52 +0000     8344 byte  tests/api_writer-reader.js</tspan>
-<tspan x="10" y="3770">234.  2017-04-04 09:06:52 +0000      321 byte  tests/comp_ambiguous-names.js</tspan>
-<tspan x="10" y="3786">235.  2017-04-04 09:06:52 +0000      490 byte  tests/comp_empty-encode.js</tspan>
-<tspan x="10" y="3802">236.  2017-04-04 09:06:52 +0000      991 byte  tests/comp_empty-inner-fields.js</tspan>
-<tspan x="10" y="3818">237.  2017-04-04 09:06:52 +0000      608 byte  tests/comp_extend.js</tspan>
-<tspan x="10" y="3834">238.  2017-04-04 09:06:52 +0000     1055 byte  tests/comp_fixed64-grpc.js</tspan>
-<tspan x="10" y="3850">239.  2017-04-04 09:06:52 +0000     3016 byte  tests/comp_groups.js</tspan>
-<tspan x="10" y="3866">240.  2017-04-04 09:06:52 +0000      889 byte  tests/comp_jspb-test.js</tspan>
-<tspan x="10" y="3882">241.  2017-04-04 09:06:52 +0000      951 byte  tests/comp_long-tags.js</tspan>
-<tspan x="10" y="3898">242.  2017-04-04 09:06:52 +0000     3744 byte  tests/comp_maps.js</tspan>
-<tspan x="10" y="3914">243.  2017-04-04 09:06:52 +0000      518 byte  tests/comp_negative-int32.js</tspan>
-<tspan x="10" y="3930">244.  2017-04-04 09:06:52 +0000     1752 byte  tests/comp_oneof.js</tspan>
-<tspan x="10" y="3946">245.  2017-04-04 09:06:52 +0000      865 byte  tests/comp_options-textformat.js</tspan>
-<tspan x="10" y="3962">246.  2017-04-04 09:06:52 +0000      788 byte  tests/comp_packed-repeated.js</tspan>
-<tspan x="10" y="3978">247.  2017-04-04 09:06:52 +0000     1311 byte  tests/comp_parse-uncommon.js</tspan>
-<tspan x="10" y="3994">248.  2017-04-04 09:06:52 +0000      493 byte  tests/comp_repeated-message.js</tspan>
-<tspan x="10" y="4010">249.  2017-04-04 09:06:52 +0000      988 byte  tests/comp_sfixed64-grpc.js</tspan>
-<tspan x="10" y="4026">250.  2017-04-04 09:06:52 +0000     1058 byte  tests/comp_typescript.ts</tspan>
-<tspan x="10" y="4042">251.  2017-04-04 09:06:52 +0000    13815 byte  tests/data/comments.js</tspan>
-<tspan x="10" y="4058">252.  2017-04-04 09:06:52 +0000      635 byte  tests/data/comments.proto</tspan>
-<tspan x="10" y="4074">253.  2017-04-04 09:06:52 +0000     2808 byte  tests/data/common.json</tspan>
-<tspan x="10" y="4090">254.  2017-04-04 09:06:52 +0000      249 byte  tests/data/common.proto</tspan>
-<tspan x="10" y="4106">255.  2017-04-04 09:06:52 +0000    24684 byte  tests/data/convert.js</tspan>
-<tspan x="10" y="4122">256.  2017-04-04 09:06:52 +0000      434 byte  tests/data/convert.proto</tspan>
-<tspan x="10" y="4138">257.  2017-04-04 09:06:52 +0000     1503 byte  tests/data/google/protobuf/LICENSE</tspan>
-<tspan x="10" y="4154">258.  2017-04-04 09:06:52 +0000    34705 byte  tests/data/google/protobuf/descriptor.proto</tspan>
-<tspan x="10" y="4170">259.  2017-04-04 09:06:52 +0000       64 byte  tests/data/invalid.json</tspan>
-<tspan x="10" y="4186">260.  2017-04-04 09:06:52 +0000       14 byte  tests/data/invalid.proto</tspan>
-<tspan x="10" y="4202">261.  2017-04-04 09:06:52 +0000     1494 byte  tests/data/mapbox/LICENSE</tspan>
-<tspan x="10" y="4218">262.  2017-04-04 09:06:52 +0000   125023 byte  tests/data/mapbox/vector_tile.bin</tspan>
-<tspan x="10" y="4234">263.  2017-04-04 09:06:52 +0000    58262 byte  tests/data/mapbox/vector_tile.js</tspan>
-<tspan x="10" y="4250">264.  2017-04-04 09:06:52 +0000     1171 byte  tests/data/mapbox/vector_tile.proto</tspan>
-<tspan x="10" y="4266">265.  2017-04-04 09:06:52 +0000    36534 byte  tests/data/package.js</tspan>
-<tspan x="10" y="4282">266.  2017-04-04 09:06:52 +0000      753 byte  tests/data/package.proto</tspan>
-<tspan x="10" y="4298">267.  2017-04-04 09:06:52 +0000    15302 byte  tests/data/rpc-es6.js</tspan>
-<tspan x="10" y="4314">268.  2017-04-04 09:06:52 +0000     2725 byte  tests/data/rpc.d.ts</tspan>
-<tspan x="10" y="4330">269.  2017-04-04 09:06:52 +0000    15248 byte  tests/data/rpc.js</tspan>
-<tspan x="10" y="4346">270.  2017-04-04 09:06:52 +0000      196 byte  tests/data/rpc.proto</tspan>
-<tspan x="10" y="4362">271.  2017-04-04 09:06:52 +0000       35 byte  tests/data/rpc.ts</tspan>
-<tspan x="10" y="4378">272.  2017-04-04 09:06:52 +0000   101142 byte  tests/data/test.d.ts</tspan>
-<tspan x="10" y="4394">273.  2017-04-04 09:06:52 +0000   761043 byte  tests/data/test.js</tspan>
-<tspan x="10" y="4410">274.  2017-04-04 09:06:52 +0000    42891 byte  tests/data/test.json</tspan>
-<tspan x="10" y="4426">275.  2017-04-04 09:06:52 +0000     7344 byte  tests/data/test.proto</tspan>
-<tspan x="10" y="4442">276.  2017-04-04 09:06:52 +0000       36 byte  tests/data/test.ts</tspan>
-<tspan x="10" y="4458">277.  2017-04-04 09:06:52 +0000     1655 byte  tests/data/uncommon.proto</tspan>
-<tspan x="10" y="4474">278.  2017-04-04 09:06:52 +0000       27 byte  tests/data/weak-other.proto</tspan>
-<tspan x="10" y="4490">279.  2017-04-04 09:06:52 +0000       91 byte  tests/data/weak.proto</tspan>
-<tspan x="10" y="4506">280.  2017-04-04 09:06:52 +0000     1364 byte  tests/docs_comments.js</tspan>
-<tspan x="10" y="4522">281.  2017-04-04 09:06:52 +0000       77 byte  tests/lib_aspromise.js</tspan>
-<tspan x="10" y="4538">282.  2017-04-04 09:06:52 +0000       33 byte  tests/lib_base64.js</tspan>
-<tspan x="10" y="4554">283.  2017-04-04 09:06:52 +0000      295 byte  tests/lib_codegen.js</tspan>
-<tspan x="10" y="4570">284.  2017-04-04 09:06:52 +0000       39 byte  tests/lib_eventemitter.js</tspan>
-<tspan x="10" y="4586">285.  2017-04-04 09:06:52 +0000       98 byte  tests/lib_inquire.js</tspan>
-<tspan x="10" y="4602">286.  2017-04-04 09:06:52 +0000       31 byte  tests/lib_path.js</tspan>
-<tspan x="10" y="4618">287.  2017-04-04 09:06:52 +0000       75 byte  tests/lib_pool.js</tspan>
-<tspan x="10" y="4634">288.  2017-04-04 09:06:52 +0000     1327 byte  tests/node/api_load-sync.js</tspan>
-<tspan x="10" y="4650">289.  2017-04-04 09:06:52 +0000     2732 byte  tests/node/comp_loaders.js</tspan>
-<tspan x="10" y="4666">290.  2017-04-04 09:06:52 +0000       50 byte  tests/node/lib_fetch.js</tspan>
-<tspan x="10" y="4682">291.  2017-04-04 09:06:52 +0000       77 byte  tests/node/lib_float.js</tspan>
-<tspan x="10" y="4698">292.  2017-04-04 09:06:52 +0000       71 byte  tests/node/lib_utf8.js</tspan>
-<tspan x="10" y="4714">293.  2017-04-04 09:06:52 +0000     3937 byte  tests/other_basics-debug.js</tspan>
-<tspan x="10" y="4730">294.  2017-04-04 09:06:52 +0000      895 byte  tests/other_bench.js</tspan>
-<tspan x="10" y="4746">295.  2017-04-04 09:06:52 +0000     3179 byte  tests/other_classes.js</tspan>
-<tspan x="10" y="4762">296.  2017-04-04 09:06:52 +0000      627 byte  tests/other_node-or-browser.js</tspan>
-<tspan x="10" y="4778">297.  2017-04-04 09:06:52 +0000     1017 byte  tests/other_package-static.js</tspan>
-<tspan x="10" y="4794">298.  2017-04-04 09:06:52 +0000     1686 byte  tests/other_package.js</tspan>
-<tspan x="10" y="4810">299.  2017-04-04 09:06:52 +0000     1518 byte  tests/other_protocolerror.js</tspan>
-<tspan x="10" y="4826">300.  2017-04-04 09:06:52 +0000      792 byte  tests/split/root.js</tspan>
-<tspan x="10" y="4842">301.  2017-04-04 09:06:52 +0000      203 byte  tests/split/test.proto</tspan>
+<tspan x="10" y="26">  0.  2017-04-04 09:08:25 +0000  4293637 byte  .</tspan>
+<tspan x="10" y="42">  1.  2017-04-04 09:08:25 +0000    87891 byte  CHANGELOG.md</tspan>
+<tspan x="10" y="58">  2.  2017-04-04 09:08:25 +0000     1976 byte  LICENSE</tspan>
+<tspan x="10" y="74">  3.  2017-04-04 09:08:25 +0000    25632 byte  README.md</tspan>
+<tspan x="10" y="90">  4.  2017-04-04 09:08:25 +0000     1046 byte  bench/alloc.js</tspan>
+<tspan x="10" y="106">  5.  2017-04-04 09:08:25 +0000      509 byte  bench/bench.json</tspan>
+<tspan x="10" y="122">  6.  2017-04-04 09:08:25 +0000      756 byte  bench/bench.proto</tspan>
+<tspan x="10" y="138">  7.  2017-04-04 09:08:25 +0000      304 byte  bench/fromJSON.js</tspan>
+<tspan x="10" y="154">  8.  2017-04-04 09:08:25 +0000     2660 byte  bench/index.html</tspan>
+<tspan x="10" y="170">  9.  2017-04-04 09:08:25 +0000     3584 byte  bench/index.js</tspan>
+<tspan x="10" y="186"> 10.  2017-04-04 09:08:25 +0000     3637 byte  bench/prof.js</tspan>
+<tspan x="10" y="202"> 11.  2017-04-04 09:08:25 +0000     4659 byte  bench/read.js</tspan>
+<tspan x="10" y="218"> 12.  2017-04-04 09:08:25 +0000     1522 byte  bench/suite.js</tspan>
+<tspan x="10" y="234"> 13.  2017-04-04 09:08:25 +0000     6227 byte  bench/write.js</tspan>
+<tspan x="10" y="250"> 14.  2017-04-04 09:08:25 +0000      210 byte  bin/pbjs</tspan>
+<tspan x="10" y="266"> 15.  2017-04-04 09:08:25 +0000      210 byte  bin/pbts</tspan>
+<tspan x="10" y="282"> 16.  2017-04-04 09:08:25 +0000     1770 byte  cli/LICENSE</tspan>
+<tspan x="10" y="298"> 17.  2017-04-04 09:08:25 +0000     6778 byte  cli/README.md</tspan>
+<tspan x="10" y="314"> 18.  2017-04-04 09:08:25 +0000      203 byte  cli/bin/pbjs</tspan>
+<tspan x="10" y="330"> 19.  2017-04-04 09:08:25 +0000      203 byte  cli/bin/pbts</tspan>
+<tspan x="10" y="346"> 20.  2017-04-04 09:08:25 +0000       96 byte  cli/index.d.ts</tspan>
+<tspan x="10" y="362"> 21.  2017-04-04 09:08:25 +0000       85 byte  cli/index.js</tspan>
+<tspan x="10" y="378"> 22.  2017-04-04 09:08:25 +0000      466 byte  cli/lib/tsd-jsdoc.json</tspan>
+<tspan x="10" y="394"> 23.  2017-04-04 09:08:25 +0000     1091 byte  cli/lib/tsd-jsdoc/LICENSE</tspan>
+<tspan x="10" y="410"> 24.  2017-04-04 09:08:25 +0000      946 byte  cli/lib/tsd-jsdoc/README.md</tspan>
+<tspan x="10" y="426"> 25.  2017-04-04 09:08:25 +0000    15972 byte  cli/lib/tsd-jsdoc/publish.js</tspan>
+<tspan x="10" y="442"> 26.  2017-04-04 09:08:25 +0000        2 byte  cli/package.json</tspan>
+<tspan x="10" y="458"> 27.  2017-04-04 09:08:25 +0000      815 byte  cli/package.standalone.json</tspan>
+<tspan x="10" y="474"> 28.  2017-04-04 09:08:25 +0000      370 byte  cli/pbjs.d.ts</tspan>
+<tspan x="10" y="490"> 29.  2017-04-04 09:08:25 +0000    11471 byte  cli/pbjs.js</tspan>
+<tspan x="10" y="506"> 30.  2017-04-04 09:08:25 +0000      370 byte  cli/pbts.d.ts</tspan>
+<tspan x="10" y="522"> 31.  2017-04-04 09:08:25 +0000     5463 byte  cli/pbts.js</tspan>
+<tspan x="10" y="538"> 32.  2017-04-04 09:08:25 +0000     1013 byte  cli/targets/json-module.js</tspan>
+<tspan x="10" y="554"> 33.  2017-04-04 09:08:25 +0000      204 byte  cli/targets/json.js</tspan>
+<tspan x="10" y="570"> 34.  2017-04-04 09:08:25 +0000     9405 byte  cli/targets/proto.js</tspan>
+<tspan x="10" y="586"> 35.  2017-04-04 09:08:25 +0000      295 byte  cli/targets/proto2.js</tspan>
+<tspan x="10" y="602"> 36.  2017-04-04 09:08:25 +0000      295 byte  cli/targets/proto3.js</tspan>
+<tspan x="10" y="618"> 37.  2017-04-04 09:08:25 +0000      989 byte  cli/targets/static-module.js</tspan>
+<tspan x="10" y="634"> 38.  2017-04-04 09:08:25 +0000    26132 byte  cli/targets/static.js</tspan>
+<tspan x="10" y="650"> 39.  2017-04-04 09:08:25 +0000     7513 byte  cli/util.js</tspan>
+<tspan x="10" y="666"> 40.  2017-04-04 09:08:25 +0000      105 byte  cli/wrappers/amd.js</tspan>
+<tspan x="10" y="682"> 41.  2017-04-04 09:08:25 +0000       95 byte  cli/wrappers/commonjs.js</tspan>
+<tspan x="10" y="698"> 42.  2017-04-04 09:08:25 +0000      429 byte  cli/wrappers/default.js</tspan>
+<tspan x="10" y="714"> 43.  2017-04-04 09:08:25 +0000       86 byte  cli/wrappers/es6.js</tspan>
+<tspan x="10" y="730"> 44.  2017-04-04 09:08:25 +0000     4586 byte  config/eslint.json</tspan>
+<tspan x="10" y="746"> 45.  2017-04-04 09:08:25 +0000       62 byte  config/istanbul.json</tspan>
+<tspan x="10" y="762"> 46.  2017-04-04 09:08:25 +0000     1511 byte  config/jsdoc.json</tspan>
+<tspan x="10" y="778"> 47.  2017-04-04 09:08:25 +0000      540 byte  config/tslint.json</tspan>
+<tspan x="10" y="794"> 48.  2017-04-04 09:08:25 +0000       57 byte  debug.d.ts</tspan>
+<tspan x="10" y="810"> 49.  2017-04-04 09:08:25 +0000      111 byte  debug.js</tspan>
+<tspan x="10" y="826"> 50.  2017-04-04 09:08:25 +0000      842 byte  dist/README.md</tspan>
+<tspan x="10" y="842"> 51.  2017-04-04 09:08:25 +0000      944 byte  dist/light/README.md</tspan>
+<tspan x="10" y="858"> 52.  2017-04-04 09:08:25 +0000   216334 byte  dist/light/protobuf.js</tspan>
+<tspan x="10" y="874"> 53.  2017-04-04 09:08:25 +0000   263405 byte  dist/light/protobuf.js.map</tspan>
+<tspan x="10" y="890"> 54.  2017-04-04 09:08:25 +0000    57750 byte  dist/light/protobuf.min.js</tspan>
+<tspan x="10" y="906"> 55.  2017-04-04 09:08:25 +0000    16383 byte  dist/light/protobuf.min.js.gz</tspan>
+<tspan x="10" y="922"> 56.  2017-04-04 09:08:25 +0000   304002 byte  dist/light/protobuf.min.js.map</tspan>
+<tspan x="10" y="938"> 57.  2017-04-04 09:08:25 +0000      930 byte  dist/minimal/README.md</tspan>
+<tspan x="10" y="954"> 58.  2017-04-04 09:08:25 +0000    79097 byte  dist/minimal/protobuf.js</tspan>
+<tspan x="10" y="970"> 59.  2017-04-04 09:08:25 +0000    97190 byte  dist/minimal/protobuf.js.map</tspan>
+<tspan x="10" y="986"> 60.  2017-04-04 09:08:25 +0000    20866 byte  dist/minimal/protobuf.min.js</tspan>
+<tspan x="10" y="1002"> 61.  2017-04-04 09:08:25 +0000     6702 byte  dist/minimal/protobuf.min.js.gz</tspan>
+<tspan x="10" y="1018"> 62.  2017-04-04 09:08:25 +0000   114957 byte  dist/minimal/protobuf.min.js.map</tspan>
+<tspan x="10" y="1034"> 63.  2017-04-04 09:08:25 +0000   252637 byte  dist/protobuf.js</tspan>
+<tspan x="10" y="1050"> 64.  2017-04-04 09:08:25 +0000   308895 byte  dist/protobuf.js.map</tspan>
+<tspan x="10" y="1066"> 65.  2017-04-04 09:08:25 +0000    67046 byte  dist/protobuf.min.js</tspan>
+<tspan x="10" y="1082"> 66.  2017-04-04 09:08:25 +0000    19486 byte  dist/protobuf.min.js.gz</tspan>
+<tspan x="10" y="1098"> 67.  2017-04-04 09:08:25 +0000   357271 byte  dist/protobuf.min.js.map</tspan>
+<tspan x="10" y="1114"> 68.  2017-04-04 09:08:25 +0000     1503 byte  google/LICENSE</tspan>
+<tspan x="10" y="1130"> 69.  2017-04-04 09:08:25 +0000      191 byte  google/README.md</tspan>
+<tspan x="10" y="1146"> 70.  2017-04-04 09:08:25 +0000     2069 byte  google/api/annotations.json</tspan>
+<tspan x="10" y="1162"> 71.  2017-04-04 09:08:25 +0000      198 byte  google/api/annotations.proto</tspan>
+<tspan x="10" y="1178"> 72.  2017-04-04 09:08:25 +0000     2087 byte  google/api/http.json</tspan>
+<tspan x="10" y="1194"> 73.  2017-04-04 09:08:25 +0000      474 byte  google/api/http.proto</tspan>
+<tspan x="10" y="1210"> 74.  2017-04-04 09:08:25 +0000     2951 byte  google/protobuf/api.json</tspan>
+<tspan x="10" y="1226"> 75.  2017-04-04 09:08:25 +0000      642 byte  google/protobuf/api.proto</tspan>
+<tspan x="10" y="1242"> 76.  2017-04-04 09:08:25 +0000    21142 byte  google/protobuf/descriptor.json</tspan>
+<tspan x="10" y="1258"> 77.  2017-04-04 09:08:25 +0000     6892 byte  google/protobuf/descriptor.proto</tspan>
+<tspan x="10" y="1274"> 78.  2017-04-04 09:08:25 +0000      363 byte  google/protobuf/field_mask.json</tspan>
+<tspan x="10" y="1290"> 79.  2017-04-04 09:08:25 +0000      106 byte  google/protobuf/field_mask.proto</tspan>
+<tspan x="10" y="1306"> 80.  2017-04-04 09:08:25 +0000      332 byte  google/protobuf/source_context.json</tspan>
+<tspan x="10" y="1322"> 81.  2017-04-04 09:08:25 +0000      105 byte  google/protobuf/source_context.proto</tspan>
+<tspan x="10" y="1338"> 82.  2017-04-04 09:08:25 +0000     5470 byte  google/protobuf/type.json</tspan>
+<tspan x="10" y="1354"> 83.  2017-04-04 09:08:25 +0000     1675 byte  google/protobuf/type.proto</tspan>
+<tspan x="10" y="1370"> 84.  2017-04-04 09:08:25 +0000    95192 byte  index.d.ts</tspan>
+<tspan x="10" y="1386"> 85.  2017-04-04 09:08:25 +0000       89 byte  index.js</tspan>
+<tspan x="10" y="1402"> 86.  2017-04-04 09:08:25 +0000     1505 byte  lib/aspromise/LICENSE</tspan>
+<tspan x="10" y="1418"> 87.  2017-04-04 09:08:25 +0000      464 byte  lib/aspromise/README.md</tspan>
+<tspan x="10" y="1434"> 88.  2017-04-04 09:08:25 +0000      380 byte  lib/aspromise/index.d.ts</tspan>
+<tspan x="10" y="1450"> 89.  2017-04-04 09:08:25 +0000     1272 byte  lib/aspromise/index.js</tspan>
+<tspan x="10" y="1466"> 90.  2017-04-04 09:08:25 +0000      581 byte  lib/aspromise/package.json</tspan>
+<tspan x="10" y="1482"> 91.  2017-04-04 09:08:25 +0000     4455 byte  lib/aspromise/tests/index.js</tspan>
+<tspan x="10" y="1498"> 92.  2017-04-04 09:08:25 +0000     1505 byte  lib/base64/LICENSE</tspan>
+<tspan x="10" y="1514"> 93.  2017-04-04 09:08:25 +0000      705 byte  lib/base64/README.md</tspan>
+<tspan x="10" y="1530"> 94.  2017-04-04 09:08:25 +0000     1126 byte  lib/base64/index.d.ts</tspan>
+<tspan x="10" y="1546"> 95.  2017-04-04 09:08:25 +0000     3679 byte  lib/base64/index.js</tspan>
+<tspan x="10" y="1562"> 96.  2017-04-04 09:08:25 +0000      574 byte  lib/base64/package.json</tspan>
+<tspan x="10" y="1578"> 97.  2017-04-04 09:08:25 +0000     1371 byte  lib/base64/tests/index.js</tspan>
+<tspan x="10" y="1594"> 98.  2017-04-04 09:08:25 +0000     1505 byte  lib/codegen/LICENSE</tspan>
+<tspan x="10" y="1610"> 99.  2017-04-04 09:08:25 +0000      708 byte  lib/codegen/README.md</tspan>
+<tspan x="10" y="1626">100.  2017-04-04 09:08:25 +0000     1129 byte  lib/codegen/index.d.ts</tspan>
+<tspan x="10" y="1642">101.  2017-04-04 09:08:25 +0000     5301 byte  lib/codegen/index.js</tspan>
+<tspan x="10" y="1658">102.  2017-04-04 09:08:25 +0000      372 byte  lib/codegen/package.json</tspan>
+<tspan x="10" y="1674">103.  2017-04-04 09:08:25 +0000       73 byte  lib/codegen/test.ts</tspan>
+<tspan x="10" y="1690">104.  2017-04-04 09:08:25 +0000     1089 byte  lib/deep-equal/LICENSE</tspan>
+<tspan x="10" y="1706">105.  2017-04-04 09:08:25 +0000      174 byte  lib/deep-equal/README.md</tspan>
+<tspan x="10" y="1722">106.  2017-04-04 09:08:25 +0000     3212 byte  lib/deep-equal/index.js</tspan>
+<tspan x="10" y="1738">107.  2017-04-04 09:08:25 +0000      659 byte  lib/deep-equal/lib/is_arguments.js</tspan>
+<tspan x="10" y="1754">108.  2017-04-04 09:08:25 +0000      209 byte  lib/deep-equal/lib/keys.js</tspan>
+<tspan x="10" y="1770">109.  2017-04-04 09:08:25 +0000     1505 byte  lib/eventemitter/LICENSE</tspan>
+<tspan x="10" y="1786">110.  2017-04-04 09:08:25 +0000      822 byte  lib/eventemitter/README.md</tspan>
+<tspan x="10" y="1802">111.  2017-04-04 09:08:25 +0000     1316 byte  lib/eventemitter/index.d.ts</tspan>
+<tspan x="10" y="1818">112.  2017-04-04 09:08:25 +0000     2088 byte  lib/eventemitter/index.js</tspan>
+<tspan x="10" y="1834">113.  2017-04-04 09:08:25 +0000      554 byte  lib/eventemitter/package.json</tspan>
+<tspan x="10" y="1850">114.  2017-04-04 09:08:25 +0000     1488 byte  lib/eventemitter/tests/index.js</tspan>
+<tspan x="10" y="1866">115.  2017-04-04 09:08:25 +0000     1505 byte  lib/fetch/LICENSE</tspan>
+<tspan x="10" y="1882">116.  2017-04-04 09:08:25 +0000      505 byte  lib/fetch/README.md</tspan>
+<tspan x="10" y="1898">117.  2017-04-04 09:08:25 +0000     1648 byte  lib/fetch/index.d.ts</tspan>
+<tspan x="10" y="1914">118.  2017-04-04 09:08:25 +0000     4011 byte  lib/fetch/index.js</tspan>
+<tspan x="10" y="1930">119.  2017-04-04 09:08:25 +0000      684 byte  lib/fetch/package.json</tspan>
+<tspan x="10" y="1946">120.  2017-04-04 09:08:25 +0000        8 byte  lib/fetch/tests/data/file.txt</tspan>
+<tspan x="10" y="1962">121.  2017-04-04 09:08:25 +0000     5929 byte  lib/fetch/tests/index.js</tspan>
+<tspan x="10" y="1978">122.  2017-04-04 09:08:25 +0000     1505 byte  lib/float/LICENSE</tspan>
+<tspan x="10" y="1994">123.  2017-04-04 09:08:25 +0000     4004 byte  lib/float/README.md</tspan>
+<tspan x="10" y="2010">124.  2017-04-04 09:08:25 +0000     1966 byte  lib/float/bench/index.js</tspan>
+<tspan x="10" y="2026">125.  2017-04-04 09:08:25 +0000     1522 byte  lib/float/bench/suite.js</tspan>
+<tspan x="10" y="2042">126.  2017-04-04 09:08:25 +0000     2543 byte  lib/float/index.d.ts</tspan>
+<tspan x="10" y="2058">127.  2017-04-04 09:08:25 +0000    11448 byte  lib/float/index.js</tspan>
+<tspan x="10" y="2074">128.  2017-04-04 09:08:25 +0000      738 byte  lib/float/package.json</tspan>
+<tspan x="10" y="2090">129.  2017-04-04 09:08:25 +0000     3102 byte  lib/float/tests/index.js</tspan>
+<tspan x="10" y="2106">130.  2017-04-04 09:08:25 +0000     1505 byte  lib/inquire/LICENSE</tspan>
+<tspan x="10" y="2122">131.  2017-04-04 09:08:25 +0000      431 byte  lib/inquire/README.md</tspan>
+<tspan x="10" y="2138">132.  2017-04-04 09:08:25 +0000      279 byte  lib/inquire/index.d.ts</tspan>
+<tspan x="10" y="2154">133.  2017-04-04 09:08:25 +0000      544 byte  lib/inquire/index.js</tspan>
+<tspan x="10" y="2170">134.  2017-04-04 09:08:25 +0000      602 byte  lib/inquire/package.json</tspan>
+<tspan x="10" y="2186">135.  2017-04-04 09:08:25 +0000       23 byte  lib/inquire/tests/data/array.js</tspan>
+<tspan x="10" y="2202">136.  2017-04-04 09:08:25 +0000       22 byte  lib/inquire/tests/data/emptyArray.js</tspan>
+<tspan x="10" y="2218">137.  2017-04-04 09:08:25 +0000       22 byte  lib/inquire/tests/data/emptyObject.js</tspan>
+<tspan x="10" y="2234">138.  2017-04-04 09:08:25 +0000       28 byte  lib/inquire/tests/data/object.js</tspan>
+<tspan x="10" y="2250">139.  2017-04-04 09:08:25 +0000      792 byte  lib/inquire/tests/index.js</tspan>
+<tspan x="10" y="2266">140.  2017-04-04 09:08:25 +0000     1505 byte  lib/path/LICENSE</tspan>
+<tspan x="10" y="2282">141.  2017-04-04 09:08:25 +0000      700 byte  lib/path/README.md</tspan>
+<tspan x="10" y="2298">142.  2017-04-04 09:08:25 +0000      838 byte  lib/path/index.d.ts</tspan>
+<tspan x="10" y="2314">143.  2017-04-04 09:08:25 +0000     2049 byte  lib/path/index.js</tspan>
+<tspan x="10" y="2330">144.  2017-04-04 09:08:25 +0000      589 byte  lib/path/package.json</tspan>
+<tspan x="10" y="2346">145.  2017-04-04 09:08:25 +0000     2089 byte  lib/path/tests/index.js</tspan>
+<tspan x="10" y="2362">146.  2017-04-04 09:08:25 +0000     5838 byte  lib/polyfill.js</tspan>
+<tspan x="10" y="2378">147.  2017-04-04 09:08:25 +0000     1505 byte  lib/pool/LICENSE</tspan>
+<tspan x="10" y="2394">148.  2017-04-04 09:08:25 +0000      510 byte  lib/pool/README.md</tspan>
+<tspan x="10" y="2410">149.  2017-04-04 09:08:25 +0000      905 byte  lib/pool/index.d.ts</tspan>
+<tspan x="10" y="2426">150.  2017-04-04 09:08:25 +0000     1240 byte  lib/pool/index.js</tspan>
+<tspan x="10" y="2442">151.  2017-04-04 09:08:25 +0000      533 byte  lib/pool/package.json</tspan>
+<tspan x="10" y="2458">152.  2017-04-04 09:08:25 +0000     1477 byte  lib/pool/tests/index.js</tspan>
+<tspan x="10" y="2474">153.  2017-04-04 09:08:25 +0000     1212 byte  lib/prelude.js</tspan>
+<tspan x="10" y="2490">154.  2017-04-04 09:08:25 +0000      660 byte  lib/tape-adapter.js</tspan>
+<tspan x="10" y="2506">155.  2017-04-04 09:08:25 +0000     1505 byte  lib/utf8/LICENSE</tspan>
+<tspan x="10" y="2522">156.  2017-04-04 09:08:25 +0000      649 byte  lib/utf8/README.md</tspan>
+<tspan x="10" y="2538">157.  2017-04-04 09:08:25 +0000      758 byte  lib/utf8/index.d.ts</tspan>
+<tspan x="10" y="2554">158.  2017-04-04 09:08:25 +0000     3373 byte  lib/utf8/index.js</tspan>
+<tspan x="10" y="2570">159.  2017-04-04 09:08:25 +0000      551 byte  lib/utf8/package.json</tspan>
+<tspan x="10" y="2586">160.  2017-04-04 09:08:25 +0000    14381 byte  lib/utf8/tests/data/utf8.txt</tspan>
+<tspan x="10" y="2602">161.  2017-04-04 09:08:25 +0000     2244 byte  lib/utf8/tests/index.js</tspan>
+<tspan x="10" y="2618">162.  2017-04-04 09:08:25 +0000       57 byte  light.d.ts</tspan>
+<tspan x="10" y="2634">163.  2017-04-04 09:08:25 +0000       94 byte  light.js</tspan>
+<tspan x="10" y="2650">164.  2017-04-04 09:08:25 +0000       57 byte  minimal.d.ts</tspan>
+<tspan x="10" y="2666">165.  2017-04-04 09:08:25 +0000      100 byte  minimal.js</tspan>
+<tspan x="10" y="2682">166.  2017-04-04 09:08:25 +0000     5580 byte  package.json</tspan>
+<tspan x="10" y="2698">167.  2017-04-04 09:08:25 +0000      147 byte  runtime.js</tspan>
+<tspan x="10" y="2714">168.  2017-04-04 09:08:25 +0000     3841 byte  scripts/bundle.js</tspan>
+<tspan x="10" y="2730">169.  2017-04-04 09:08:25 +0000     4806 byte  scripts/changelog.js</tspan>
+<tspan x="10" y="2746">170.  2017-04-04 09:08:25 +0000      652 byte  scripts/gencommons.js</tspan>
+<tspan x="10" y="2762">171.  2017-04-04 09:08:25 +0000     2054 byte  scripts/gentests.js</tspan>
+<tspan x="10" y="2778">172.  2017-04-04 09:08:25 +0000      977 byte  scripts/gulpfile.js</tspan>
+<tspan x="10" y="2794">173.  2017-04-04 09:08:25 +0000      352 byte  scripts/pages.js</tspan>
+<tspan x="10" y="2810">174.  2017-04-04 09:08:25 +0000     1264 byte  scripts/postinstall.js</tspan>
+<tspan x="10" y="2826">175.  2017-04-04 09:08:25 +0000      336 byte  scripts/prepublish.js</tspan>
+<tspan x="10" y="2842">176.  2017-04-04 09:08:25 +0000     6165 byte  src/class.js</tspan>
+<tspan x="10" y="2858">177.  2017-04-04 09:08:25 +0000     5345 byte  src/common.js</tspan>
+<tspan x="10" y="2874">178.  2017-04-04 09:08:25 +0000    11061 byte  src/converter.js</tspan>
+<tspan x="10" y="2890">179.  2017-04-04 09:08:25 +0000     3798 byte  src/decoder.js</tspan>
+<tspan x="10" y="2906">180.  2017-04-04 09:08:25 +0000     3761 byte  src/encoder.js</tspan>
+<tspan x="10" y="2922">181.  2017-04-04 09:08:25 +0000     3929 byte  src/enum.js</tspan>
+<tspan x="10" y="2938">182.  2017-04-04 09:08:25 +0000     8635 byte  src/field.js</tspan>
+<tspan x="10" y="2954">183.  2017-04-04 09:08:25 +0000     2269 byte  src/index-debug.js</tspan>
+<tspan x="10" y="2970">184.  2017-04-04 09:08:25 +0000     3672 byte  src/index-light.js</tspan>
+<tspan x="10" y="2986">185.  2017-04-04 09:08:25 +0000     1343 byte  src/index-minimal.js</tspan>
+<tspan x="10" y="3002">186.  2017-04-04 09:08:25 +0000      364 byte  src/index.js</tspan>
+<tspan x="10" y="3018">187.  2017-04-04 09:08:25 +0000     2905 byte  src/mapfield.js</tspan>
+<tspan x="10" y="3034">188.  2017-04-04 09:08:25 +0000     3823 byte  src/message.js</tspan>
+<tspan x="10" y="3050">189.  2017-04-04 09:08:25 +0000     4315 byte  src/method.js</tspan>
+<tspan x="10" y="3066">190.  2017-04-04 09:08:25 +0000    13729 byte  src/namespace.js</tspan>
+<tspan x="10" y="3082">191.  2017-04-04 09:08:25 +0000     5150 byte  src/object.js</tspan>
+<tspan x="10" y="3098">192.  2017-04-04 09:08:25 +0000     4580 byte  src/oneof.js</tspan>
+<tspan x="10" y="3114">193.  2017-04-04 09:08:25 +0000    22087 byte  src/parse.js</tspan>
+<tspan x="10" y="3130">194.  2017-04-04 09:08:25 +0000    11520 byte  src/reader.js</tspan>
+<tspan x="10" y="3146">195.  2017-04-04 09:08:25 +0000     1089 byte  src/reader_buffer.js</tspan>
+<tspan x="10" y="3162">196.  2017-04-04 09:08:25 +0000    12465 byte  src/root.js</tspan>
+<tspan x="10" y="3178">197.  2017-04-04 09:08:25 +0000     1207 byte  src/rpc.js</tspan>
+<tspan x="10" y="3194">198.  2017-04-04 09:08:25 +0000     5185 byte  src/rpc/service.js</tspan>
+<tspan x="10" y="3210">199.  2017-04-04 09:08:25 +0000     5092 byte  src/service.js</tspan>
+<tspan x="10" y="3226">200.  2017-04-04 09:08:25 +0000     8329 byte  src/tokenize.js</tspan>
+<tspan x="10" y="3242">201.  2017-04-04 09:08:25 +0000    18192 byte  src/type.js</tspan>
+<tspan x="10" y="3258">202.  2017-04-04 09:08:25 +0000     5717 byte  src/types.js</tspan>
+<tspan x="10" y="3274">203.  2017-04-04 09:08:25 +0000     1632 byte  src/util.js</tspan>
+<tspan x="10" y="3290">204.  2017-04-04 09:08:25 +0000     5593 byte  src/util/longbits.js</tspan>
+<tspan x="10" y="3306">205.  2017-04-04 09:08:25 +0000    12739 byte  src/util/minimal.js</tspan>
+<tspan x="10" y="3322">206.  2017-04-04 09:08:25 +0000     6312 byte  src/verifier.js</tspan>
+<tspan x="10" y="3338">207.  2017-04-04 09:08:25 +0000    12354 byte  src/writer.js</tspan>
+<tspan x="10" y="3354">208.  2017-04-04 09:08:25 +0000     2310 byte  src/writer_buffer.js</tspan>
+<tspan x="10" y="3370">209.  2017-04-04 09:08:25 +0000      166 byte  stub-long.d.ts</tspan>
+<tspan x="10" y="3386">210.  2017-04-04 09:08:25 +0000      165 byte  stub-node.d.ts</tspan>
+<tspan x="10" y="3402">211.  2017-04-04 09:08:25 +0000      595 byte  tests/README.md</tspan>
+<tspan x="10" y="3418">212.  2017-04-04 09:08:25 +0000     1269 byte  tests/api_class.js</tspan>
+<tspan x="10" y="3434">213.  2017-04-04 09:08:25 +0000      632 byte  tests/api_common.js</tspan>
+<tspan x="10" y="3450">214.  2017-04-04 09:08:25 +0000     8558 byte  tests/api_converters.js</tspan>
+<tspan x="10" y="3466">215.  2017-04-04 09:08:25 +0000     2135 byte  tests/api_enum.js</tspan>
+<tspan x="10" y="3482">216.  2017-04-04 09:08:25 +0000     3190 byte  tests/api_field.js</tspan>
+<tspan x="10" y="3498">217.  2017-04-04 09:08:25 +0000      946 byte  tests/api_inheritance.js</tspan>
+<tspan x="10" y="3514">218.  2017-04-04 09:08:25 +0000     5153 byte  tests/api_longbits.js</tspan>
+<tspan x="10" y="3530">219.  2017-04-04 09:08:25 +0000      519 byte  tests/api_mapfield.js</tspan>
+<tspan x="10" y="3546">220.  2017-04-04 09:08:25 +0000     4663 byte  tests/api_namespace.js</tspan>
+<tspan x="10" y="3562">221.  2017-04-04 09:08:25 +0000     1346 byte  tests/api_object.js</tspan>
+<tspan x="10" y="3578">222.  2017-04-04 09:08:25 +0000     1679 byte  tests/api_oneof.js</tspan>
+<tspan x="10" y="3594">223.  2017-04-04 09:08:25 +0000     1529 byte  tests/api_reader-writer-reuse.js</tspan>
+<tspan x="10" y="3610">224.  2017-04-04 09:08:25 +0000     1604 byte  tests/api_root-deferred.js</tspan>
+<tspan x="10" y="3626">225.  2017-04-04 09:08:25 +0000     1268 byte  tests/api_root-expose.js</tspan>
+<tspan x="10" y="3642">226.  2017-04-04 09:08:25 +0000     3347 byte  tests/api_root.js</tspan>
+<tspan x="10" y="3658">227.  2017-04-04 09:08:25 +0000     7163 byte  tests/api_service-rpc-streaming.js</tspan>
+<tspan x="10" y="3674">228.  2017-04-04 09:08:25 +0000     4306 byte  tests/api_service-rpc.js</tspan>
+<tspan x="10" y="3690">229.  2017-04-04 09:08:25 +0000     1664 byte  tests/api_service.js</tspan>
+<tspan x="10" y="3706">230.  2017-04-04 09:08:25 +0000     2908 byte  tests/api_tokenize.js</tspan>
+<tspan x="10" y="3722">231.  2017-04-04 09:08:25 +0000     3868 byte  tests/api_type.js</tspan>
+<tspan x="10" y="3738">232.  2017-04-04 09:08:25 +0000     2924 byte  tests/api_util.js</tspan>
+<tspan x="10" y="3754">233.  2017-04-04 09:08:25 +0000     8344 byte  tests/api_writer-reader.js</tspan>
+<tspan x="10" y="3770">234.  2017-04-04 09:08:25 +0000      321 byte  tests/comp_ambiguous-names.js</tspan>
+<tspan x="10" y="3786">235.  2017-04-04 09:08:25 +0000      490 byte  tests/comp_empty-encode.js</tspan>
+<tspan x="10" y="3802">236.  2017-04-04 09:08:25 +0000      991 byte  tests/comp_empty-inner-fields.js</tspan>
+<tspan x="10" y="3818">237.  2017-04-04 09:08:25 +0000      608 byte  tests/comp_extend.js</tspan>
+<tspan x="10" y="3834">238.  2017-04-04 09:08:25 +0000     1055 byte  tests/comp_fixed64-grpc.js</tspan>
+<tspan x="10" y="3850">239.  2017-04-04 09:08:25 +0000     3016 byte  tests/comp_groups.js</tspan>
+<tspan x="10" y="3866">240.  2017-04-04 09:08:25 +0000      889 byte  tests/comp_jspb-test.js</tspan>
+<tspan x="10" y="3882">241.  2017-04-04 09:08:25 +0000      951 byte  tests/comp_long-tags.js</tspan>
+<tspan x="10" y="3898">242.  2017-04-04 09:08:25 +0000     3744 byte  tests/comp_maps.js</tspan>
+<tspan x="10" y="3914">243.  2017-04-04 09:08:25 +0000      518 byte  tests/comp_negative-int32.js</tspan>
+<tspan x="10" y="3930">244.  2017-04-04 09:08:25 +0000     1752 byte  tests/comp_oneof.js</tspan>
+<tspan x="10" y="3946">245.  2017-04-04 09:08:25 +0000      865 byte  tests/comp_options-textformat.js</tspan>
+<tspan x="10" y="3962">246.  2017-04-04 09:08:25 +0000      788 byte  tests/comp_packed-repeated.js</tspan>
+<tspan x="10" y="3978">247.  2017-04-04 09:08:25 +0000     1311 byte  tests/comp_parse-uncommon.js</tspan>
+<tspan x="10" y="3994">248.  2017-04-04 09:08:25 +0000      493 byte  tests/comp_repeated-message.js</tspan>
+<tspan x="10" y="4010">249.  2017-04-04 09:08:25 +0000      988 byte  tests/comp_sfixed64-grpc.js</tspan>
+<tspan x="10" y="4026">250.  2017-04-04 09:08:25 +0000     1058 byte  tests/comp_typescript.ts</tspan>
+<tspan x="10" y="4042">251.  2017-04-04 09:08:25 +0000    13815 byte  tests/data/comments.js</tspan>
+<tspan x="10" y="4058">252.  2017-04-04 09:08:25 +0000      635 byte  tests/data/comments.proto</tspan>
+<tspan x="10" y="4074">253.  2017-04-04 09:08:25 +0000     2808 byte  tests/data/common.json</tspan>
+<tspan x="10" y="4090">254.  2017-04-04 09:08:25 +0000      249 byte  tests/data/common.proto</tspan>
+<tspan x="10" y="4106">255.  2017-04-04 09:08:25 +0000    24684 byte  tests/data/convert.js</tspan>
+<tspan x="10" y="4122">256.  2017-04-04 09:08:25 +0000      434 byte  tests/data/convert.proto</tspan>
+<tspan x="10" y="4138">257.  2017-04-04 09:08:25 +0000     1503 byte  tests/data/google/protobuf/LICENSE</tspan>
+<tspan x="10" y="4154">258.  2017-04-04 09:08:25 +0000    34705 byte  tests/data/google/protobuf/descriptor.proto</tspan>
+<tspan x="10" y="4170">259.  2017-04-04 09:08:25 +0000       64 byte  tests/data/invalid.json</tspan>
+<tspan x="10" y="4186">260.  2017-04-04 09:08:25 +0000       14 byte  tests/data/invalid.proto</tspan>
+<tspan x="10" y="4202">261.  2017-04-04 09:08:25 +0000     1494 byte  tests/data/mapbox/LICENSE</tspan>
+<tspan x="10" y="4218">262.  2017-04-04 09:08:25 +0000   125023 byte  tests/data/mapbox/vector_tile.bin</tspan>
+<tspan x="10" y="4234">263.  2017-04-04 09:08:25 +0000    58262 byte  tests/data/mapbox/vector_tile.js</tspan>
+<tspan x="10" y="4250">264.  2017-04-04 09:08:25 +0000     1171 byte  tests/data/mapbox/vector_tile.proto</tspan>
+<tspan x="10" y="4266">265.  2017-04-04 09:08:25 +0000    36534 byte  tests/data/package.js</tspan>
+<tspan x="10" y="4282">266.  2017-04-04 09:08:25 +0000      753 byte  tests/data/package.proto</tspan>
+<tspan x="10" y="4298">267.  2017-04-04 09:08:25 +0000    15302 byte  tests/data/rpc-es6.js</tspan>
+<tspan x="10" y="4314">268.  2017-04-04 09:08:25 +0000     2725 byte  tests/data/rpc.d.ts</tspan>
+<tspan x="10" y="4330">269.  2017-04-04 09:08:25 +0000    15248 byte  tests/data/rpc.js</tspan>
+<tspan x="10" y="4346">270.  2017-04-04 09:08:25 +0000      196 byte  tests/data/rpc.proto</tspan>
+<tspan x="10" y="4362">271.  2017-04-04 09:08:25 +0000       35 byte  tests/data/rpc.ts</tspan>
+<tspan x="10" y="4378">272.  2017-04-04 09:08:25 +0000   101142 byte  tests/data/test.d.ts</tspan>
+<tspan x="10" y="4394">273.  2017-04-04 09:08:25 +0000   761043 byte  tests/data/test.js</tspan>
+<tspan x="10" y="4410">274.  2017-04-04 09:08:25 +0000    42891 byte  tests/data/test.json</tspan>
+<tspan x="10" y="4426">275.  2017-04-04 09:08:25 +0000     7344 byte  tests/data/test.proto</tspan>
+<tspan x="10" y="4442">276.  2017-04-04 09:08:25 +0000       36 byte  tests/data/test.ts</tspan>
+<tspan x="10" y="4458">277.  2017-04-04 09:08:25 +0000     1655 byte  tests/data/uncommon.proto</tspan>
+<tspan x="10" y="4474">278.  2017-04-04 09:08:25 +0000       27 byte  tests/data/weak-other.proto</tspan>
+<tspan x="10" y="4490">279.  2017-04-04 09:08:25 +0000       91 byte  tests/data/weak.proto</tspan>
+<tspan x="10" y="4506">280.  2017-04-04 09:08:25 +0000     1364 byte  tests/docs_comments.js</tspan>
+<tspan x="10" y="4522">281.  2017-04-04 09:08:25 +0000       77 byte  tests/lib_aspromise.js</tspan>
+<tspan x="10" y="4538">282.  2017-04-04 09:08:25 +0000       33 byte  tests/lib_base64.js</tspan>
+<tspan x="10" y="4554">283.  2017-04-04 09:08:25 +0000      295 byte  tests/lib_codegen.js</tspan>
+<tspan x="10" y="4570">284.  2017-04-04 09:08:25 +0000       39 byte  tests/lib_eventemitter.js</tspan>
+<tspan x="10" y="4586">285.  2017-04-04 09:08:25 +0000       98 byte  tests/lib_inquire.js</tspan>
+<tspan x="10" y="4602">286.  2017-04-04 09:08:25 +0000       31 byte  tests/lib_path.js</tspan>
+<tspan x="10" y="4618">287.  2017-04-04 09:08:25 +0000       75 byte  tests/lib_pool.js</tspan>
+<tspan x="10" y="4634">288.  2017-04-04 09:08:25 +0000     1327 byte  tests/node/api_load-sync.js</tspan>
+<tspan x="10" y="4650">289.  2017-04-04 09:08:25 +0000     2732 byte  tests/node/comp_loaders.js</tspan>
+<tspan x="10" y="4666">290.  2017-04-04 09:08:25 +0000       50 byte  tests/node/lib_fetch.js</tspan>
+<tspan x="10" y="4682">291.  2017-04-04 09:08:25 +0000       77 byte  tests/node/lib_float.js</tspan>
+<tspan x="10" y="4698">292.  2017-04-04 09:08:25 +0000       71 byte  tests/node/lib_utf8.js</tspan>
+<tspan x="10" y="4714">293.  2017-04-04 09:08:25 +0000     3937 byte  tests/other_basics-debug.js</tspan>
+<tspan x="10" y="4730">294.  2017-04-04 09:08:25 +0000      895 byte  tests/other_bench.js</tspan>
+<tspan x="10" y="4746">295.  2017-04-04 09:08:25 +0000     3179 byte  tests/other_classes.js</tspan>
+<tspan x="10" y="4762">296.  2017-04-04 09:08:25 +0000      627 byte  tests/other_node-or-browser.js</tspan>
+<tspan x="10" y="4778">297.  2017-04-04 09:08:25 +0000     1017 byte  tests/other_package-static.js</tspan>
+<tspan x="10" y="4794">298.  2017-04-04 09:08:25 +0000     1686 byte  tests/other_package.js</tspan>
+<tspan x="10" y="4810">299.  2017-04-04 09:08:25 +0000     1518 byte  tests/other_protocolerror.js</tspan>
+<tspan x="10" y="4826">300.  2017-04-04 09:08:25 +0000      792 byte  tests/split/root.js</tspan>
+<tspan x="10" y="4842">301.  2017-04-04 09:08:25 +0000      203 byte  tests/split/test.proto</tspan>
 </text>
 </svg>

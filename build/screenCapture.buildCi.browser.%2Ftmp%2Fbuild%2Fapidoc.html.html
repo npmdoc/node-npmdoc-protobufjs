@@ -47,7 +47,7 @@
 }
 </style>
 <h1>api documentation for
-    <a href="http://dcode.io/protobuf.js">protobufjs (v6.7.0)</a>
+    <a href="http://dcode.io/protobuf.js">protobufjs (v6.7.3)</a>
 </h1>
 <h4>Protocol Buffers for JavaScript (&amp; TypeScript).</h4>
 <div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
@@ -459,6 +459,12 @@
         <li>
 
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">protobufjs.</span>debug</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">protobufjs.</span>light</span>
 
         </li>
 
@@ -2246,6 +2252,308 @@
             function <span class="apidocSignatureSpan">protobufjs.converter.</span>toObject
             <span class="apidocSignatureSpan">(mtype)</span>
             </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.protobufjs.debug">module protobufjs.debug</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.protobufjs.debug.disable">
+            function <span class="apidocSignatureSpan">protobufjs.debug.</span>disable
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.protobufjs.debug.enable">
+            function <span class="apidocSignatureSpan">protobufjs.debug.</span>enable
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.protobufjs.debug.unusedTypes">
+            function <span class="apidocSignatureSpan">protobufjs.debug.</span>unusedTypes
+            <span class="apidocSignatureSpan">(ns)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.protobufjs.light">module protobufjs.light</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.protobufjs.light.BufferReader">
+            function <span class="apidocSignatureSpan">protobufjs.light.</span>BufferReader
+            <span class="apidocSignatureSpan">(buffer)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.protobufjs.light.BufferWriter">
+            function <span class="apidocSignatureSpan">protobufjs.light.</span>BufferWriter
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.protobufjs.light.Class">
+            function <span class="apidocSignatureSpan">protobufjs.light.</span>Class
+            <span class="apidocSignatureSpan">(type, ctor)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.protobufjs.light.Enum">
+            function <span class="apidocSignatureSpan">protobufjs.light.</span>Enum
+            <span class="apidocSignatureSpan">(name, values, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.protobufjs.light.Field">
+            function <span class="apidocSignatureSpan">protobufjs.light.</span>Field
+            <span class="apidocSignatureSpan">(name, id, type, rule, extend, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.protobufjs.light.MapField">
+            function <span class="apidocSignatureSpan">protobufjs.light.</span>MapField
+            <span class="apidocSignatureSpan">(name, id, keyType, type, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.protobufjs.light.Message">
+            function <span class="apidocSignatureSpan">protobufjs.light.</span>Message
+            <span class="apidocSignatureSpan">(properties)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.protobufjs.light.Method">
+            function <span class="apidocSignatureSpan">protobufjs.light.</span>Method
+            <span class="apidocSignatureSpan">(name, type, requestType, responseType, requestStream, responseStream, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.protobufjs.light.Namespace">
+            function <span class="apidocSignatureSpan">protobufjs.light.</span>Namespace
+            <span class="apidocSignatureSpan">(name, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.protobufjs.light.OneOf">
+            function <span class="apidocSignatureSpan">protobufjs.light.</span>OneOf
+            <span class="apidocSignatureSpan">(name, fieldNames, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.protobufjs.light.Reader">
+            function <span class="apidocSignatureSpan">protobufjs.light.</span>Reader
+            <span class="apidocSignatureSpan">(buffer)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.protobufjs.light.ReflectionObject">
+            function <span class="apidocSignatureSpan">protobufjs.light.</span>ReflectionObject
+            <span class="apidocSignatureSpan">(name, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.protobufjs.light.Root">
+            function <span class="apidocSignatureSpan">protobufjs.light.</span>Root
+            <span class="apidocSignatureSpan">(options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.protobufjs.light.Service">
+            function <span class="apidocSignatureSpan">protobufjs.light.</span>Service
+            <span class="apidocSignatureSpan">(name, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.protobufjs.light.Type">
+            function <span class="apidocSignatureSpan">protobufjs.light.</span>Type
+            <span class="apidocSignatureSpan">(name, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.protobufjs.light.Writer">
+            function <span class="apidocSignatureSpan">protobufjs.light.</span>Writer
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.protobufjs.light.common">
+            function <span class="apidocSignatureSpan">protobufjs.light.</span>common
+            <span class="apidocSignatureSpan">(name, json)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.protobufjs.light.configure">
+            function <span class="apidocSignatureSpan">protobufjs.light.</span>configure
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.protobufjs.light.decoder">
+            function <span class="apidocSignatureSpan">protobufjs.light.</span>decoder
+            <span class="apidocSignatureSpan">(mtype)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.protobufjs.light.encoder">
+            function <span class="apidocSignatureSpan">protobufjs.light.</span>encoder
+            <span class="apidocSignatureSpan">(mtype)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.protobufjs.light.load">
+            function <span class="apidocSignatureSpan">protobufjs.light.</span>load
+            <span class="apidocSignatureSpan">(filename, root, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.protobufjs.light.loadSync">
+            function <span class="apidocSignatureSpan">protobufjs.light.</span>loadSync
+            <span class="apidocSignatureSpan">(filename, root)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.protobufjs.light.parse">
+            function <span class="apidocSignatureSpan">protobufjs.light.</span>parse
+            <span class="apidocSignatureSpan">(source, root, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.protobufjs.light.tokenize">
+            function <span class="apidocSignatureSpan">protobufjs.light.</span>tokenize
+            <span class="apidocSignatureSpan">(source)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.protobufjs.light.verifier">
+            function <span class="apidocSignatureSpan">protobufjs.light.</span>verifier
+            <span class="apidocSignatureSpan">(mtype)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">protobufjs.light.</span>converter</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">protobufjs.light.</span>debug</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">protobufjs.light.</span>roots</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">protobufjs.light.</span>rpc</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">protobufjs.light.</span>types</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">protobufjs.light.</span>util</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">protobufjs.light.</span>build</span>
 
         </li>
 
@@ -5444,7 +5752,7 @@ if (typeof module === "object" &amp;&amp; module &amp;&amp; module.exports)
         // Map fields
         if (field.map) {
             gen
-    ("if(%s&amp;&amp;m.hasOwnProperty(%j)){", ref, field.name)
+    ("if(%s!=null&amp;&amp;m.hasOwnProperty(%j)){", ref, field.name) // !== undefined &amp;&amp; !== null
         ("for(var ks=Object.keys(%s),i=0;i&lt;ks.length;++i){", ref)
             ("w.uint32(%d).fork().uint32(%d).%s(ks[i])", (field.id &lt;&lt; 3 | 2) &gt;&gt;&gt; 0, 8 | types.mapKey[field.keyType], field.keyType
 );
@@ -5458,7 +5766,7 @@ if (typeof module === "object" &amp;&amp; module &amp;&amp; module.exports)
 
             // Repeated fields
         } else if (field.repeated) { gen
-    ("if(%s&amp;&amp;%s.length){", ref, ref);
+    ("if(%s!=null&amp;&amp;%s.length){", ref, ref); // !== undefined &amp;&amp; !== null
 
             // Packed repeated
             if (field.packed &amp;&amp; types.packed[type] !== undefined) { gen
@@ -5482,14 +5790,8 @@ if (typeof module === "object" &amp;&amp; module &amp;&amp; module.exports)
 
         // Non-repeated
         } else {
-            if (field.optional) {
-
-                if (field.bytes || field.resolvedType &amp;&amp; !(field.resolvedType instanceof Enum)) gen
-    ("if(%s&amp;&amp;m.hasOwnProperty(%j))", ref, field.name);
-                else gen
+            if (field.optional) gen
     ("if(%s!=null&amp;&amp;m.hasOwnProperty(%j))", ref, field.name); // !== undefined &amp;&amp; !== null
-
-            }
 
             if (wireType === undefined)
         genTypePartial(gen, field, index, ref);
@@ -5715,11 +6017,11 @@ return;
 var Test, data, count;
 
 if (process.argv.indexOf("--alt") &lt; 0) {
-root = protobuf.<span class="apidocCodeKeywordSpan">parse</span>(fs.readFileSync(require.resolve("../bench/bench.proto"
-;)).toString("utf8")).root;
+root = protobuf.<span class="apidocCodeKeywordSpan">parse</span>(fs.readFileSync(require.resolve("../bench/data/bench.proto
+")).toString("utf8")).root;
 Test = root.lookup("Test");
 json = JSON.stringify(root);
-data = require("../bench/bench.json");
+data = require("../bench/data/bench.json");
 count = 10000000;
 process.stdout.write("bench.proto");
 } else {
@@ -6339,32 +6641,29 @@ eslint-disable-line no-new-func
         var field = mtype._fieldsArray[i].resolve(),
             ref   = "m" + util.safeProp(field.name);
 
+        if (field.optional) gen
+        ("if(%s!=null&amp;&amp;m.hasOwnProperty(%j)){", ref, field.name); // !== undefined &amp;&amp; !== null
+
         // map fields
         if (field.map) { gen
-            ("if(%s!=null){", ref) // !== undefined &amp;&amp; !== null
-                ("if(!util.isObject(%s))", ref)
-                    ("return%j", invalid(field, "object"))
-                ("var k=Object.keys(%s)", ref)
-                ("for(var i=0;i&lt;k.length;++i){");
-                    genVerifyKey(gen, field, "k[i]");
-                    genVerifyValue(gen, field, i, ref + "[k[i]]")
-                ("}")
+            ("if(!util.isObject(%s))", ref)
+                ("return%j", invalid(field, "object"))
+            ("var k=Object.keys(%s)", ref)
+            ("for(var i=0;i&lt;k.length;++i){");
+                genVerifyKey(gen, field, "k[i]");
+                genVerifyValue(gen, field, i, ref + "[k[i]]")
             ("}");
 
         // repeated fields
         } else if (field.repeated) { gen
-            ("if(%s!=null){", ref) // !== undefined &amp;&amp; !== null
-                ("if(!Array.isArray(%s))", ref)
-                    ("return%j", invalid(field, "array"))
-                ("for(var i=0;i&lt;%s.length;++i){", ref);
-                    genVerifyValue(gen, field, i, ref + "[i]")
-                ("}")
+            ("if(!Array.isArray(%s))", ref)
+                ("return%j", invalid(field, "array"))
+            ("for(var i=0;i&lt;%s.length;++i){", ref);
+                genVerifyValue(gen, field, i, ref + "[i]")
             ("}");
 
         // required or present fields
         } else {
-            if (field.optional) gen
-            ("if(%s!=null){", ref); // !== undefined &amp;&amp; !== null
             if (field.partOf) {
                 var oneofProp = util.safeProp(field.partOf.name);
                 if (seenFirstField[field.partOf.name] === 1) gen
@@ -6374,16 +6673,19 @@ eslint-disable-line no-new-func
                 gen
             ("p%s=1", oneofProp);
             }
-                genVerifyValue(gen, field, i, ref);
-            if (field.optional) gen
-            ("}");
+            genVerifyValue(gen, field, i, ref);
         }
-    } return gen
+        if (field.optional) gen
+        ("}");
+    }
+    return gen
     ("return null");
     /* eslint-enable no-unexpected-multiline */
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
+
+
 
 
 
@@ -6772,16 +7074,17 @@ eslint-disable-line no-new-func
 works like `Message.decode` but additionally reads the length of the message prepended as a varint.
 
 * **Message.create**(properties: `Object`): `Message`&lt;br /&gt;
-quickly creates a new runtime message from known to be valid properties without any conversion being performed. Where applicable
-, it is recommended to prefer `Message.create` over `Message.fromObject`.
+creates a new **message instance** from a set of properties that satisfy the requirements of a valid message. Where applicable,
+it is recommended to prefer `Message.create` over `Message.fromObject` because it doesn't perform possibly redundant conversion
+.
 
 ```js
 var message = AwesomeMessage.<span class="apidocCodeKeywordSpan">create</span>({ awesomeField: "AwesomeString" });
 ```
 
 * **Message.fromObject**(object: `Object`): `Message`&lt;br /&gt;
-converts any plain object to a runtime message. Tries to convert whatever is specified (use `Message.verify` before if necessary
-).
+converts any non-valid **plain JavaScript object** to a **message instance** using the conversion steps outlined within the table
+ above.
 
 ```js
 var message = AwesomeMessage.fromObject({ awesomeField: 42 });
@@ -6807,10 +7110,8 @@ var message = AwesomeMessage.fromObject({ awesomeField: 42 });
         else if (field.repeated) gen
             ("this%s=[]", util.safeProp(field.name));
     return gen
-    ("if(p){")
-        ("for(var ks=Object.keys(p),i=0;i&lt;ks.length;++i)")
-            ("this[ks[i]]=p[ks[i]];")
-    ("}");
+    ("if(p)for(var ks=Object.keys(p),i=0;i&lt;ks.length;++i)if(p[ks[i]]!=null)") // omit undefined or null
+        ("this[ks[i]]=p[ks[i]]");
     /* eslint-enable no-unexpected-multiline */
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -7451,11 +7752,11 @@ return;
 var Test, data, count;
 
 if (process.argv.indexOf("--alt") &lt; 0) {
-root = protobuf.parse(fs.readFileSync(require.<span class="apidocCodeKeywordSpan">resolve</span>("../bench/bench.proto"
-;)).toString("utf8")).root;
+root = protobuf.parse(fs.readFileSync(require.<span class="apidocCodeKeywordSpan">resolve</span>("../bench/data/bench.proto
+")).toString("utf8")).root;
 Test = root.lookup("Test");
 json = JSON.stringify(root);
-data = require("../bench/bench.json");
+data = require("../bench/data/bench.json");
 count = 10000000;
 process.stdout.write("bench.proto");
 } else {
@@ -7657,11 +7958,11 @@ return;
 var Test, data, count;
 
 if (process.argv.indexOf("--alt") &lt; 0) {
-root = protobuf.parse(fs.readFileSync(require.<span class="apidocCodeKeywordSpan">resolve</span>("../bench/bench.proto"
-;)).toString("utf8")).root;
+root = protobuf.parse(fs.readFileSync(require.<span class="apidocCodeKeywordSpan">resolve</span>("../bench/data/bench.proto
+")).toString("utf8")).root;
 Test = root.lookup("Test");
 json = JSON.stringify(root);
-data = require("../bench/bench.json");
+data = require("../bench/data/bench.json");
 count = 10000000;
 process.stdout.write("bench.proto");
 } else {
@@ -7727,23 +8028,27 @@ x22;)).root;
     return this.$type.decode(reader);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-works like `Message.encode` but additionally prepends the length of the message as a varint.
+| Field type | Expected JS type (create, encode) | Conversion (fromObject)
+|------------|-----------------------------------|------------------------
+| s-/u-/int32&lt;br /&gt;s-/fixed32 | `number` (32 bit integer) | `value | 0` if signed&lt;br /&gt;`value &gt;&gt;&amp;#
+x3e; 0` if unsigned
+| s-/u-/int64&lt;br /&gt;s-/fixed64 | `Long`-like (optimal)&lt;br /&gt;`number` (53 bit integer) | `Long.fromValue(value
+)` with long.js&lt;br /&gt;`parseInt(value, 10)` otherwise
+| float&lt;br /&gt;double | `number` | `Number(value)`
+| bool | `boolean` | `Boolean(value)`
+| string | `string` | `String(value)`
+| bytes | `Uint8Array` (optimal)&lt;br /&gt;`Buffer` (optimal under node)&lt;br /&gt;`Array.&lt;number&gt;` (8 bit integers
+) | `base64.<span class="apidocCodeKeywordSpan">decode</span>(value)` if a `string`&lt;br /&gt;`Object` with non-zero `.length
+` is assumed to be buffer-like
+| enum | `number` (32 bit integer) | Looks up the numeric id if a `string`
+| message | Valid message | `Message.fromObject(value)`
 
-* **Message.decode**(reader: `Reader|Uint8Array`): `Message`&lt;br /&gt;
-is an automatically generated message specific decoder. If required fields are missing, it throws a `util.ProtocolError` with an
- `instance` property set to the so far decoded message. If the wire format is invalid, it throws an `Error`. The result is a runtime
- message.
-
-```js
-try {
-  var decodedMessage = AwesomeMessage.<span class="apidocCodeKeywordSpan">decode</span>(buffer);
-} catch (e) {
-    if (e instanceof protobuf.util.ProtocolError) {
-      // e.instance holds the so far decoded message with missing required fields
-    } else {
-      // wire format is invalid
-    }
-}
+* Explicit `undefined` and `null` are considered as not set if the field is optional.
+* Repeated fields are `Array.&lt;T&gt;`.
+* Map fields are `Object.&lt;string,T&gt;` with the key being the string representation of the respective value or an 8 characters
+ long binary hash string for `Long`-likes.
+* Types marked as *optimal* provide the best performance because no conversion step (i.e. number to low and high bits or base64
+string to buffer) is required.
 ...</pre></li>
     </ul>
 
@@ -7779,8 +8084,8 @@ try {
 ```
 
 * **Message.encode**(message: `Message|Object` [, writer: `Writer`]): `Writer`&lt;br /&gt;
-is an automatically generated message specific encoder expecting a valid message or plain object. Note that this method does not
- implicitly verify the message and that it's up to the user to make sure that the data can actually be encoded properly.
+encodes a **message instance** or valid **plain JavaScript object**. This method does not implicitly verify the message and it&amp;#
+x27;s up to the user to make sure that the payload is a valid message.
 
 ```js
 var buffer = AwesomeMessage.<span class="apidocCodeKeywordSpan">encode</span>(message).finish();
@@ -7790,9 +8095,8 @@ var buffer = AwesomeMessage.<span class="apidocCodeKeywordSpan">encode</span>(me
 works like `Message.encode` but additionally prepends the length of the message as a varint.
 
 * **Message.decode**(reader: `Reader|Uint8Array`): `Message`&lt;br /&gt;
-is an automatically generated message specific decoder. If required fields are missing, it throws a `util.ProtocolError` with an
- `instance` property set to the so far decoded message. If the wire format is invalid, it throws an `Error`. The result is a runtime
- message.
+decodes a buffer to a **message instance**. If required fields are missing, it throws a `util.ProtocolError` with an `instance`
+property set to the so far decoded message. If the wire format is invalid, it throws an `Error`.
 ...</pre></li>
     </ul>
 
@@ -7839,22 +8143,26 @@ is an automatically generated message specific decoder. If required fields are m
     return this.$type.fromObject(object);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-var message = AwesomeMessage.create({ awesomeField: "AwesomeString" });
-```
+| s-/u-/int32&lt;br /&gt;s-/fixed32 | `number` (32 bit integer) | `value | 0` if signed&lt;br /&gt;`value &gt;&gt;&amp;#
+x3e; 0` if unsigned
+| s-/u-/int64&lt;br /&gt;s-/fixed64 | `Long`-like (optimal)&lt;br /&gt;`number` (53 bit integer) | `Long.fromValue(value
+)` with long.js&lt;br /&gt;`parseInt(value, 10)` otherwise
+| float&lt;br /&gt;double | `number` | `Number(value)`
+| bool | `boolean` | `Boolean(value)`
+| string | `string` | `String(value)`
+| bytes | `Uint8Array` (optimal)&lt;br /&gt;`Buffer` (optimal under node)&lt;br /&gt;`Array.&lt;number&gt;` (8 bit integers
+) | `base64.decode(value)` if a `string`&lt;br /&gt;`Object` with non-zero `.length` is assumed to be buffer-like
+| enum | `number` (32 bit integer) | Looks up the numeric id if a `string`
+| message | Valid message | `Message.<span class="apidocCodeKeywordSpan">fromObject</span>(value)`
 
-* **Message.fromObject**(object: `Object`): `Message`&lt;br /&gt;
-converts any plain object to a runtime message. Tries to convert whatever is specified (use `Message.verify` before if necessary
-).
+* Explicit `undefined` and `null` are considered as not set if the field is optional.
+* Repeated fields are `Array.&lt;T&gt;`.
+* Map fields are `Object.&lt;string,T&gt;` with the key being the string representation of the respective value or an 8 characters
+ long binary hash string for `Long`-likes.
+* Types marked as *optimal* provide the best performance because no conversion step (i.e. number to low and high bits or base64
+string to buffer) is required.
 
-```js
-var message = AwesomeMessage.<span class="apidocCodeKeywordSpan">fromObject</span>({ awesomeField: 42 });
-// converts awesomeField to a string
-```
-
-* **Message.toObject**(message: `Message` [, options: `ConversionOptions`]): `Object`&lt;br /&gt;
-converts a runtime message to a plain object.
-
-```js
+### Toolset
 ...</pre></li>
     </ul>
 
@@ -7875,7 +8183,9 @@ converts a runtime message to a plain object.
 ```
 
 * **Message.toObject**(message: `Message` [, options: `ConversionOptions`]): `Object`&lt;br /&gt;
-converts a runtime message to a plain object.
+converts a **message instance** to an arbitrary **plain JavaScript object** for interoperability with other libraries or storage
+. The resulting plain JavaScript object *might* still satisfy the requirements of a valid message depending on the actual conversion
+ options specified, but most of the time it does not.
 
 ```js
 var object = AwesomeMessage.<span class="apidocCodeKeywordSpan">toObject</span>(message, {
@@ -7902,12 +8212,11 @@ var object = AwesomeMessage.<span class="apidocCodeKeywordSpan">toObject</span>(
     return this.$type.verify(message);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-Note that **Message** below refers to any message type. See the next section for the definition of a [valid message](#valid-message
-).
+**Note** that `Message` below refers to any message class.
 
 * **Message.verify**(message: `Object`): `null|string`&lt;br /&gt;
-explicitly performs verification prior to encoding a plain object. Instead of throwing, it returns the error message as a string
-, if any.
+verifies that a **plain JavaScript object** satisfies the requirements of a valid message and thus can be encoded without issues
+. Instead of throwing, it returns the error message as a string, if any.
 
 ```js
 var payload = "invalid (not an object)";
@@ -7917,8 +8226,8 @@ if (err)
 ```
 
 * **Message.encode**(message: `Message|Object` [, writer: `Writer`]): `Writer`&lt;br /&gt;
-is an automatically generated message specific encoder expecting a valid message or plain object. Note that this method does not
- implicitly verify the message and that it's up to the user to make sure that the data can actually be encoded properly.
+encodes a **message instance** or valid **plain JavaScript object**. This method does not implicitly verify the message and it&amp;#
+x27;s up to the user to make sure that the payload is a valid message.
 ...</pre></li>
     </ul>
 
@@ -7959,7 +8268,9 @@ is an automatically generated message specific encoder expecting a valid message
 ```
 
 * **Message.toObject**(message: `Message` [, options: `ConversionOptions`]): `Object`&lt;br /&gt;
-converts a runtime message to a plain object.
+converts a **message instance** to an arbitrary **plain JavaScript object** for interoperability with other libraries or storage
+. The resulting plain JavaScript object *might* still satisfy the requirements of a valid message depending on the actual conversion
+ options specified, but most of the time it does not.
 
 ```js
 var object = AwesomeMessage.<span class="apidocCodeKeywordSpan">toObject</span>(message, {
@@ -8204,11 +8515,11 @@ return;
 var Test, data, count;
 
 if (process.argv.indexOf("--alt") &lt; 0) {
-root = protobuf.parse(fs.readFileSync(require.<span class="apidocCodeKeywordSpan">resolve</span>("../bench/bench.proto"
-;)).toString("utf8")).root;
+root = protobuf.parse(fs.readFileSync(require.<span class="apidocCodeKeywordSpan">resolve</span>("../bench/data/bench.proto
+")).toString("utf8")).root;
 Test = root.lookup("Test");
 json = JSON.stringify(root);
-data = require("../bench/bench.json");
+data = require("../bench/data/bench.json");
 count = 10000000;
 process.stdout.write("bench.proto");
 } else {
@@ -8511,7 +8822,7 @@ var root = new Root().<span class="apidocCodeKeywordSpan">define</span>("awesome
 ...
 ```
 
-Detailed information on the reflection structure is available within the [documentation](#documentation).
+Detailed information on the reflection structure is available within the [API documentation](#additional-documentation).
 ...</pre></li>
     </ul>
 
@@ -8559,7 +8870,7 @@ Detailed information on the reflection structure is available within the [docume
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function lookup(path, filterTypes, parentAlreadyChecked) {
 
-    /* istanbul ignore if */
+    /* istanbul ignore next */
     if (typeof filterTypes === "boolean") {
         parentAlreadyChecked = filterTypes;
         filterTypes = undefined;
@@ -8755,7 +9066,7 @@ return;
 var Test, data, count;
 
 if (process.argv.indexOf("--alt") &lt; 0) {
-root = protobuf.parse(fs.readFileSync(require.resolve("../bench/bench.proto")).toString("utf8")).root;
+root = protobuf.parse(fs.readFileSync(require.resolve("../bench/data/bench.proto")).toString("utf8")).root;
 ...</pre></li>
     </ul>
 
@@ -9147,16 +9458,17 @@ case "encode":
 works like `Message.decode` but additionally reads the length of the message prepended as a varint.
 
 * **Message.create**(properties: `Object`): `Message`&lt;br /&gt;
-quickly creates a new runtime message from known to be valid properties without any conversion being performed. Where applicable
-, it is recommended to prefer `Message.create` over `Message.fromObject`.
+creates a new **message instance** from a set of properties that satisfy the requirements of a valid message. Where applicable,
+it is recommended to prefer `Message.create` over `Message.fromObject` because it doesn't perform possibly redundant conversion
+.
 
 ```js
 var message = AwesomeMessage.<span class="apidocCodeKeywordSpan">create</span>({ awesomeField: "AwesomeString" });
 ```
 
 * **Message.fromObject**(object: `Object`): `Message`&lt;br /&gt;
-converts any plain object to a runtime message. Tries to convert whatever is specified (use `Message.verify` before if necessary
-).
+converts any non-valid **plain JavaScript object** to a **message instance** using the conversion steps outlined within the table
+ above.
 
 ```js
 var message = AwesomeMessage.fromObject({ awesomeField: 42 });
@@ -9735,11 +10047,11 @@ return;
 var Test, data, count;
 
 if (process.argv.indexOf("--alt") &lt; 0) {
-root = protobuf.parse(fs.readFileSync(require.<span class="apidocCodeKeywordSpan">resolve</span>("../bench/bench.proto"
-;)).toString("utf8")).root;
+root = protobuf.parse(fs.readFileSync(require.<span class="apidocCodeKeywordSpan">resolve</span>("../bench/data/bench.proto
+")).toString("utf8")).root;
 Test = root.lookup("Test");
 json = JSON.stringify(root);
-data = require("../bench/bench.json");
+data = require("../bench/data/bench.json");
 count = 10000000;
 process.stdout.write("bench.proto");
 } else {
@@ -9838,11 +10150,11 @@ return;
 var Test, data, count;
 
 if (process.argv.indexOf("--alt") &lt; 0) {
-root = protobuf.parse(fs.readFileSync(require.resolve("../bench/bench.proto")).<span class="apidocCodeKeywordSpan">toString
-</span>("utf8")).root;
+root = protobuf.parse(fs.readFileSync(require.resolve("../bench/data/bench.proto")).<span class="apidocCodeKeywordSpan
+">toString</span>("utf8")).root;
 Test = root.lookup("Test");
 json = JSON.stringify(root);
-data = require("../bench/bench.json");
+data = require("../bench/data/bench.json");
 count = 10000000;
 process.stdout.write("bench.proto");
 } else {
@@ -10254,7 +10566,7 @@ return;
 var Test, data, count;
 
 if (process.argv.indexOf("--alt") &lt; 0) {
-root = protobuf.parse(fs.readFileSync(require.resolve("../bench/bench.proto")).toString("utf8")).root;
+root = protobuf.parse(fs.readFileSync(require.resolve("../bench/data/bench.proto")).toString("utf8")).root;
 ...</pre></li>
     </ul>
 
@@ -10454,16 +10766,17 @@ eof(util.lcFirst(this._methodsArray[i].name), {
 works like `Message.decode` but additionally reads the length of the message prepended as a varint.
 
 * **Message.create**(properties: `Object`): `Message`&lt;br /&gt;
-quickly creates a new runtime message from known to be valid properties without any conversion being performed. Where applicable
-, it is recommended to prefer `Message.create` over `Message.fromObject`.
+creates a new **message instance** from a set of properties that satisfy the requirements of a valid message. Where applicable,
+it is recommended to prefer `Message.create` over `Message.fromObject` because it doesn't perform possibly redundant conversion
+.
 
 ```js
 var message = AwesomeMessage.<span class="apidocCodeKeywordSpan">create</span>({ awesomeField: "AwesomeString" });
 ```
 
 * **Message.fromObject**(object: `Object`): `Message`&lt;br /&gt;
-converts any plain object to a runtime message. Tries to convert whatever is specified (use `Message.verify` before if necessary
-).
+converts any non-valid **plain JavaScript object** to a **message instance** using the conversion steps outlined within the table
+ above.
 
 ```js
 var message = AwesomeMessage.fromObject({ awesomeField: 42 });
@@ -10541,7 +10854,7 @@ return;
 var Test, data, count;
 
 if (process.argv.indexOf("--alt") &lt; 0) {
-root = protobuf.parse(fs.readFileSync(require.resolve("../bench/bench.proto")).toString("utf8")).root;
+root = protobuf.parse(fs.readFileSync(require.resolve("../bench/data/bench.proto")).toString("utf8")).root;
 ...</pre></li>
     </ul>
 
@@ -10869,16 +11182,17 @@ var root = new Root().define("awesomepackage").add(AwesomeMessage);
 works like `Message.decode` but additionally reads the length of the message prepended as a varint.
 
 * **Message.create**(properties: `Object`): `Message`&lt;br /&gt;
-quickly creates a new runtime message from known to be valid properties without any conversion being performed. Where applicable
-, it is recommended to prefer `Message.create` over `Message.fromObject`.
+creates a new **message instance** from a set of properties that satisfy the requirements of a valid message. Where applicable,
+it is recommended to prefer `Message.create` over `Message.fromObject` because it doesn't perform possibly redundant conversion
+.
 
 ```js
 var message = AwesomeMessage.<span class="apidocCodeKeywordSpan">create</span>({ awesomeField: "AwesomeString" });
 ```
 
 * **Message.fromObject**(object: `Object`): `Message`&lt;br /&gt;
-converts any plain object to a runtime message. Tries to convert whatever is specified (use `Message.verify` before if necessary
-).
+converts any non-valid **plain JavaScript object** to a **message instance** using the conversion steps outlined within the table
+ above.
 
 ```js
 var message = AwesomeMessage.fromObject({ awesomeField: 42 });
@@ -10898,23 +11212,27 @@ var message = AwesomeMessage.fromObject({ awesomeField: 42 });
     return this.setup().decode(reader, length); // overrides this method
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-works like `Message.encode` but additionally prepends the length of the message as a varint.
+| Field type | Expected JS type (create, encode) | Conversion (fromObject)
+|------------|-----------------------------------|------------------------
+| s-/u-/int32&lt;br /&gt;s-/fixed32 | `number` (32 bit integer) | `value | 0` if signed&lt;br /&gt;`value &gt;&gt;&amp;#
+x3e; 0` if unsigned
+| s-/u-/int64&lt;br /&gt;s-/fixed64 | `Long`-like (optimal)&lt;br /&gt;`number` (53 bit integer) | `Long.fromValue(value
+)` with long.js&lt;br /&gt;`parseInt(value, 10)` otherwise
+| float&lt;br /&gt;double | `number` | `Number(value)`
+| bool | `boolean` | `Boolean(value)`
+| string | `string` | `String(value)`
+| bytes | `Uint8Array` (optimal)&lt;br /&gt;`Buffer` (optimal under node)&lt;br /&gt;`Array.&lt;number&gt;` (8 bit integers
+) | `base64.<span class="apidocCodeKeywordSpan">decode</span>(value)` if a `string`&lt;br /&gt;`Object` with non-zero `.length
+` is assumed to be buffer-like
+| enum | `number` (32 bit integer) | Looks up the numeric id if a `string`
+| message | Valid message | `Message.fromObject(value)`
 
-* **Message.decode**(reader: `Reader|Uint8Array`): `Message`&lt;br /&gt;
-is an automatically generated message specific decoder. If required fields are missing, it throws a `util.ProtocolError` with an
- `instance` property set to the so far decoded message. If the wire format is invalid, it throws an `Error`. The result is a runtime
- message.
-
-```js
-try {
-  var decodedMessage = AwesomeMessage.<span class="apidocCodeKeywordSpan">decode</span>(buffer);
-} catch (e) {
-    if (e instanceof protobuf.util.ProtocolError) {
-      // e.instance holds the so far decoded message with missing required fields
-    } else {
-      // wire format is invalid
-    }
-}
+* Explicit `undefined` and `null` are considered as not set if the field is optional.
+* Repeated fields are `Array.&lt;T&gt;`.
+* Map fields are `Object.&lt;string,T&gt;` with the key being the string representation of the respective value or an 8 characters
+ long binary hash string for `Long`-likes.
+* Types marked as *optimal* provide the best performance because no conversion step (i.e. number to low and high bits or base64
+string to buffer) is required.
 ...</pre></li>
     </ul>
 
@@ -10952,8 +11270,8 @@ try {
 ```
 
 * **Message.encode**(message: `Message|Object` [, writer: `Writer`]): `Writer`&lt;br /&gt;
-is an automatically generated message specific encoder expecting a valid message or plain object. Note that this method does not
- implicitly verify the message and that it's up to the user to make sure that the data can actually be encoded properly.
+encodes a **message instance** or valid **plain JavaScript object**. This method does not implicitly verify the message and it&amp;#
+x27;s up to the user to make sure that the payload is a valid message.
 
 ```js
 var buffer = AwesomeMessage.<span class="apidocCodeKeywordSpan">encode</span>(message).finish();
@@ -10963,9 +11281,8 @@ var buffer = AwesomeMessage.<span class="apidocCodeKeywordSpan">encode</span>(me
 works like `Message.encode` but additionally prepends the length of the message as a varint.
 
 * **Message.decode**(reader: `Reader|Uint8Array`): `Message`&lt;br /&gt;
-is an automatically generated message specific decoder. If required fields are missing, it throws a `util.ProtocolError` with an
- `instance` property set to the so far decoded message. If the wire format is invalid, it throws an `Error`. The result is a runtime
- message.
+decodes a buffer to a **message instance**. If required fields are missing, it throws a `util.ProtocolError` with an `instance`
+property set to the so far decoded message. If the wire format is invalid, it throws an `Error`.
 ...</pre></li>
     </ul>
 
@@ -11012,22 +11329,26 @@ is an automatically generated message specific decoder. If required fields are m
     return this.setup().fromObject(object);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-var message = AwesomeMessage.create({ awesomeField: "AwesomeString" });
-```
+| s-/u-/int32&lt;br /&gt;s-/fixed32 | `number` (32 bit integer) | `value | 0` if signed&lt;br /&gt;`value &gt;&gt;&amp;#
+x3e; 0` if unsigned
+| s-/u-/int64&lt;br /&gt;s-/fixed64 | `Long`-like (optimal)&lt;br /&gt;`number` (53 bit integer) | `Long.fromValue(value
+)` with long.js&lt;br /&gt;`parseInt(value, 10)` otherwise
+| float&lt;br /&gt;double | `number` | `Number(value)`
+| bool | `boolean` | `Boolean(value)`
+| string | `string` | `String(value)`
+| bytes | `Uint8Array` (optimal)&lt;br /&gt;`Buffer` (optimal under node)&lt;br /&gt;`Array.&lt;number&gt;` (8 bit integers
+) | `base64.decode(value)` if a `string`&lt;br /&gt;`Object` with non-zero `.length` is assumed to be buffer-like
+| enum | `number` (32 bit integer) | Looks up the numeric id if a `string`
+| message | Valid message | `Message.<span class="apidocCodeKeywordSpan">fromObject</span>(value)`
 
-* **Message.fromObject**(object: `Object`): `Message`&lt;br /&gt;
-converts any plain object to a runtime message. Tries to convert whatever is specified (use `Message.verify` before if necessary
-).
+* Explicit `undefined` and `null` are considered as not set if the field is optional.
+* Repeated fields are `Array.&lt;T&gt;`.
+* Map fields are `Object.&lt;string,T&gt;` with the key being the string representation of the respective value or an 8 characters
+ long binary hash string for `Long`-likes.
+* Types marked as *optimal* provide the best performance because no conversion step (i.e. number to low and high bits or base64
+string to buffer) is required.
 
-```js
-var message = AwesomeMessage.<span class="apidocCodeKeywordSpan">fromObject</span>({ awesomeField: 42 });
-// converts awesomeField to a string
-```
-
-* **Message.toObject**(message: `Message` [, options: `ConversionOptions`]): `Object`&lt;br /&gt;
-converts a runtime message to a plain object.
-
-```js
+### Toolset
 ...</pre></li>
     </ul>
 
@@ -11158,7 +11479,7 @@ return;
 var Test, data, count;
 
 if (process.argv.indexOf("--alt") &lt; 0) {
-root = protobuf.parse(fs.readFileSync(require.resolve("../bench/bench.proto")).toString("utf8")).root;
+root = protobuf.parse(fs.readFileSync(require.resolve("../bench/data/bench.proto")).toString("utf8")).root;
 ...</pre></li>
     </ul>
 
@@ -11246,7 +11567,9 @@ root = protobuf.parse(fs.readFileSync(require.resolve("../bench/bench.proto")).t
 ```
 
 * **Message.toObject**(message: `Message` [, options: `ConversionOptions`]): `Object`&lt;br /&gt;
-converts a runtime message to a plain object.
+converts a **message instance** to an arbitrary **plain JavaScript object** for interoperability with other libraries or storage
+. The resulting plain JavaScript object *might* still satisfy the requirements of a valid message depending on the actual conversion
+ options specified, but most of the time it does not.
 
 ```js
 var object = AwesomeMessage.<span class="apidocCodeKeywordSpan">toObject</span>(message, {
@@ -11273,12 +11596,11 @@ var object = AwesomeMessage.<span class="apidocCodeKeywordSpan">toObject</span>(
     return this.setup().verify(message); // overrides this method
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-Note that **Message** below refers to any message type. See the next section for the definition of a [valid message](#valid-message
-).
+**Note** that `Message` below refers to any message class.
 
 * **Message.verify**(message: `Object`): `null|string`&lt;br /&gt;
-explicitly performs verification prior to encoding a plain object. Instead of throwing, it returns the error message as a string
-, if any.
+verifies that a **plain JavaScript object** satisfies the requirements of a valid message and thus can be encoded without issues
+. Instead of throwing, it returns the error message as a string, if any.
 
 ```js
 var payload = "invalid (not an object)";
@@ -11288,8 +11610,8 @@ if (err)
 ```
 
 * **Message.encode**(message: `Message|Object` [, writer: `Writer`]): `Writer`&lt;br /&gt;
-is an automatically generated message specific encoder expecting a valid message or plain object. Note that this method does not
- implicitly verify the message and that it's up to the user to make sure that the data can actually be encoded properly.
+encodes a **message instance** or valid **plain JavaScript object**. This method does not implicitly verify the message and it&amp;#
+x27;s up to the user to make sure that the payload is a valid message.
 ...</pre></li>
     </ul>
 
@@ -11416,16 +11738,17 @@ case "encode-browser":
 works like `Message.decode` but additionally reads the length of the message prepended as a varint.
 
 * **Message.create**(properties: `Object`): `Message`&lt;br /&gt;
-quickly creates a new runtime message from known to be valid properties without any conversion being performed. Where applicable
-, it is recommended to prefer `Message.create` over `Message.fromObject`.
+creates a new **message instance** from a set of properties that satisfy the requirements of a valid message. Where applicable,
+it is recommended to prefer `Message.create` over `Message.fromObject` because it doesn't perform possibly redundant conversion
+.
 
 ```js
 var message = AwesomeMessage.<span class="apidocCodeKeywordSpan">create</span>({ awesomeField: "AwesomeString" });
 ```
 
 * **Message.fromObject**(object: `Object`): `Message`&lt;br /&gt;
-converts any plain object to a runtime message. Tries to convert whatever is specified (use `Message.verify` before if necessary
-).
+converts any non-valid **plain JavaScript object** to a **message instance** using the conversion steps outlined within the table
+ above.
 
 ```js
 var message = AwesomeMessage.fromObject({ awesomeField: 42 });
@@ -11516,8 +11839,8 @@ var message = AwesomeMessage.fromObject({ awesomeField: 42 });
 ```
 
 * **Message.encode**(message: `Message|Object` [, writer: `Writer`]): `Writer`&lt;br /&gt;
-is an automatically generated message specific encoder expecting a valid message or plain object. Note that this method does not
- implicitly verify the message and that it's up to the user to make sure that the data can actually be encoded properly.
+encodes a **message instance** or valid **plain JavaScript object**. This method does not implicitly verify the message and it&amp;#
+x27;s up to the user to make sure that the payload is a valid message.
 
 ```js
 var buffer = AwesomeMessage.encode(message).<span class="apidocCodeKeywordSpan">finish</span>();
@@ -11527,9 +11850,8 @@ var buffer = AwesomeMessage.encode(message).<span class="apidocCodeKeywordSpan">
 works like `Message.encode` but additionally prepends the length of the message as a varint.
 
 * **Message.decode**(reader: `Reader|Uint8Array`): `Message`&lt;br /&gt;
-is an automatically generated message specific decoder. If required fields are missing, it throws a `util.ProtocolError` with an
- `instance` property set to the so far decoded message. If the wire format is invalid, it throws an `Error`. The result is a runtime
- message.
+decodes a buffer to a **message instance**. If required fields are missing, it throws a `util.ProtocolError` with an `instance`
+property set to the so far decoded message. If the wire format is invalid, it throws an `Error`.
 ...</pre></li>
     </ul>
 
@@ -11948,22 +12270,26 @@ var i = 0;
     /* eslint-enable no-unexpected-multiline, block-scoped-var, no-redeclare */
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-var message = AwesomeMessage.create({ awesomeField: "AwesomeString" });
-```
+| s-/u-/int32&lt;br /&gt;s-/fixed32 | `number` (32 bit integer) | `value | 0` if signed&lt;br /&gt;`value &gt;&gt;&amp;#
+x3e; 0` if unsigned
+| s-/u-/int64&lt;br /&gt;s-/fixed64 | `Long`-like (optimal)&lt;br /&gt;`number` (53 bit integer) | `Long.fromValue(value
+)` with long.js&lt;br /&gt;`parseInt(value, 10)` otherwise
+| float&lt;br /&gt;double | `number` | `Number(value)`
+| bool | `boolean` | `Boolean(value)`
+| string | `string` | `String(value)`
+| bytes | `Uint8Array` (optimal)&lt;br /&gt;`Buffer` (optimal under node)&lt;br /&gt;`Array.&lt;number&gt;` (8 bit integers
+) | `base64.decode(value)` if a `string`&lt;br /&gt;`Object` with non-zero `.length` is assumed to be buffer-like
+| enum | `number` (32 bit integer) | Looks up the numeric id if a `string`
+| message | Valid message | `Message.<span class="apidocCodeKeywordSpan">fromObject</span>(value)`
 
-* **Message.fromObject**(object: `Object`): `Message`&lt;br /&gt;
-converts any plain object to a runtime message. Tries to convert whatever is specified (use `Message.verify` before if necessary
-).
+* Explicit `undefined` and `null` are considered as not set if the field is optional.
+* Repeated fields are `Array.&lt;T&gt;`.
+* Map fields are `Object.&lt;string,T&gt;` with the key being the string representation of the respective value or an 8 characters
+ long binary hash string for `Long`-likes.
+* Types marked as *optimal* provide the best performance because no conversion step (i.e. number to low and high bits or base64
+string to buffer) is required.
 
-```js
-var message = AwesomeMessage.<span class="apidocCodeKeywordSpan">fromObject</span>({ awesomeField: 42 });
-// converts awesomeField to a string
-```
-
-* **Message.toObject**(message: `Message` [, options: `ConversionOptions`]): `Object`&lt;br /&gt;
-converts a runtime message to a plain object.
-
-```js
+### Toolset
 ...</pre></li>
     </ul>
 
@@ -12072,7 +12398,9 @@ converts a runtime message to a plain object.
 ```
 
 * **Message.toObject**(message: `Message` [, options: `ConversionOptions`]): `Object`&lt;br /&gt;
-converts a runtime message to a plain object.
+converts a **message instance** to an arbitrary **plain JavaScript object** for interoperability with other libraries or storage
+. The resulting plain JavaScript object *might* still satisfy the requirements of a valid message depending on the actual conversion
+ options specified, but most of the time it does not.
 
 ```js
 var object = AwesomeMessage.<span class="apidocCodeKeywordSpan">toObject</span>(message, {
@@ -12085,6 +12413,1569 @@ var object = AwesomeMessage.<span class="apidocCodeKeywordSpan">toObject</span>(
   oneofs: true    // includes virtual oneof fields set to the present field's name
 ...</pre></li>
     </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.protobufjs.debug" id="apidoc.module.protobufjs.debug">module protobufjs.debug</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.protobufjs.debug.disable" id="apidoc.element.protobufjs.debug.disable">
+        function <span class="apidocSignatureSpan">protobufjs.debug.</span>disable
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function disable() {
+    protobuf.util.codegen = codegen;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.protobufjs.debug.enable" id="apidoc.element.protobufjs.debug.enable">
+        function <span class="apidocSignatureSpan">protobufjs.debug.</span>enable
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function enable() {
+    protobuf.util.codegen = codegen_debug;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.protobufjs.debug.unusedTypes" id="apidoc.element.protobufjs.debug.unusedTypes">
+        function <span class="apidocSignatureSpan">protobufjs.debug.</span>unusedTypes
+        <span class="apidocSignatureSpan">(ns)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function unusedTypes(ns) {
+
+    /* istanbul ignore if */
+    if (!(ns instanceof protobuf.Namespace))
+        throw TypeError("ns must be a Namespace");
+
+    /* istanbul ignore if */
+    if (!ns.nested)
+        return [];
+
+    var unused = [];
+    for (var names = Object.keys(ns.nested), i = 0; i &lt; names.length; ++i) {
+        var nested = ns.nested[names[i]];
+        if (nested instanceof protobuf.Type) {
+            var calls = (nested.encode.calls|0)
+                      + (nested.decode.calls|0)
+                      + (nested.verify.calls|0)
+                      + (nested.toObject.calls|0)
+                      + (nested.fromObject.calls|0);
+            if (!calls)
+                unused.push(nested);
+        } else if (nested instanceof protobuf.Namespace)
+            Array.prototype.push.apply(unused, unusedTypes(nested));
+    }
+    return unused;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.protobufjs.light" id="apidoc.module.protobufjs.light">module protobufjs.light</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.protobufjs.light.BufferReader" id="apidoc.element.protobufjs.light.BufferReader">
+        function <span class="apidocSignatureSpan">protobufjs.light.</span>BufferReader
+        <span class="apidocSignatureSpan">(buffer)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function BufferReader(buffer) {
+    Reader.call(this, buffer);
+
+    /**
+     * Read buffer.
+     * @name BufferReader#buf
+     * @type {Buffer}
+     */
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.protobufjs.light.BufferWriter" id="apidoc.element.protobufjs.light.BufferWriter">
+        function <span class="apidocSignatureSpan">protobufjs.light.</span>BufferWriter
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function BufferWriter() {
+    Writer.call(this);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.protobufjs.light.Class" id="apidoc.element.protobufjs.light.Class">
+        function <span class="apidocSignatureSpan">protobufjs.light.</span>Class
+        <span class="apidocSignatureSpan">(type, ctor)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Class(type, ctor) {
+    if (!Type)
+        Type = require("./type");
+
+    if (!(type instanceof Type))
+        throw TypeError("type must be a Type");
+
+    if (ctor) {
+        if (typeof ctor !== "function")
+            throw TypeError("ctor must be a function");
+    } else
+        ctor = Class.generate(type).eof(type.name); // named constructor function (codegen is required anyway)
+
+    // Let's pretend...
+    ctor.constructor = Class;
+
+    // new Class() -&gt; Message.prototype
+    (ctor.prototype = new Message()).constructor = ctor;
+
+    // Static methods on Message are instance methods on Class and vice versa
+    util.merge(ctor, Message, true);
+
+    // Classes and messages reference their reflected type
+    ctor.$type = type;
+    ctor.prototype.$type = type;
+
+    // Messages have non-enumerable default values on their prototype
+    var i = 0;
+    for (; i &lt; /* initializes */ type.fieldsArray.length; ++i) {
+        // objects on the prototype must be immmutable. users must assign a new object instance and
+        // cannot use Array#push on empty arrays on the prototype for example, as this would modify
+        // the value on the prototype for ALL messages of this type. Hence, these objects are frozen.
+        ctor.prototype[type._fieldsArray[i].name] = Array.isArray(type._fieldsArray[i].resolve().defaultValue)
+            ? util.emptyArray
+            : util.isObject(type._fieldsArray[i].defaultValue) &amp;&amp; !type._fieldsArray[i].long
+              ? util.emptyObject
+              : type._fieldsArray[i].defaultValue; // if a long, it is frozen when initialized
+    }
+
+    // Messages have non-enumerable getters and setters for each virtual oneof field
+    var ctorProperties = {};
+    for (i = 0; i &lt; /* initializes */ type.oneofsArray.length; ++i)
+        ctorProperties[type._oneofsArray[i].resolve().name] = {
+            get: util.oneOfGetter(type._oneofsArray[i].oneof),
+            set: util.oneOfSetter(type._oneofsArray[i].oneof)
+        };
+    if (i)
+        Object.defineProperties(ctor.prototype, ctorProperties);
+
+    // Register
+    type.ctor = ctor;
+
+    return ctor.prototype;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.protobufjs.light.Enum" id="apidoc.element.protobufjs.light.Enum">
+        function <span class="apidocSignatureSpan">protobufjs.light.</span>Enum
+        <span class="apidocSignatureSpan">(name, values, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Enum(name, values, options) {
+    ReflectionObject.call(this, name, options);
+
+    if (values &amp;&amp; typeof values !== "object")
+        throw TypeError("values must be an object");
+
+    /**
+     * Enum values by id.
+     * @type {Object.&lt;number,string&gt;}
+     */
+    this.valuesById = {};
+
+    /**
+     * Enum values by name.
+     * @type {Object.&lt;string,number&gt;}
+     */
+    this.values = Object.create(this.valuesById); // toJSON, marker
+
+    /**
+     * Value comment texts, if any.
+     * @type {Object.&lt;string,string&gt;}
+     */
+    this.comments = {};
+
+    // Note that values inherit valuesById on their prototype which makes them a TypeScript-
+    // compatible enum. This is used by pbts to write actual enum definitions that work for
+    // static and reflection code alike instead of emitting generic object definitions.
+
+    if (values)
+        for (var keys = Object.keys(values), i = 0; i &lt; keys.length; ++i)
+            this.valuesById[ this.values[keys[i]] = values[keys[i]] ] = keys[i];
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.protobufjs.light.Field" id="apidoc.element.protobufjs.light.Field">
+        function <span class="apidocSignatureSpan">protobufjs.light.</span>Field
+        <span class="apidocSignatureSpan">(name, id, type, rule, extend, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Field(name, id, type, rule, extend, options) {
+
+    if (util.isObject(rule)) {
+        options = rule;
+        rule = extend = undefined;
+    } else if (util.isObject(extend)) {
+        options = extend;
+        extend = undefined;
+    }
+
+    ReflectionObject.call(this, name, options);
+
+    if (!util.isInteger(id) || id &lt; 0)
+        throw TypeError("id must be a non-negative integer");
+
+    if (!util.isString(type))
+        throw TypeError("type must be a string");
+
+    if (rule !== undefined &amp;&amp; !ruleRe.test(rule = rule.toString().toLowerCase()))
+        throw TypeError("rule must be a string rule");
+
+    if (extend !== undefined &amp;&amp; !util.isString(extend))
+        throw TypeError("extend must be a string");
+
+    /**
+     * Field rule, if any.
+     * @type {string|undefined}
+     */
+    this.rule = rule &amp;&amp; rule !== "optional" ? rule : undefined; // toJSON
+
+    /**
+     * Field type.
+     * @type {string}
+     */
+    this.type = type; // toJSON
+
+    /**
+     * Unique field id.
+     * @type {number}
+     */
+    this.id = id; // toJSON, marker
+
+    /**
+     * Extended type if different from parent.
+     * @type {string|undefined}
+     */
+    this.extend = extend || undefined; // toJSON
+
+    /**
+     * Whether this field is required.
+     * @type {boolean}
+     */
+    this.required = rule === "required";
+
+    /**
+     * Whether this field is optional.
+     * @type {boolean}
+     */
+    this.optional = !this.required;
+
+    /**
+     * Whether this field is repeated.
+     * @type {boolean}
+     */
+    this.repeated = rule === "repeated";
+
+    /**
+     * Whether this field is a map or not.
+     * @type {boolean}
+     */
+    this.map = false;
+
+    /**
+     * Message this field belongs to.
+     * @type {?Type}
+     */
+    this.message = null;
+
+    /**
+     * OneOf this field belongs to, if any,
+     * @type {?OneOf}
+     */
+    this.partOf = null;
+
+    /**
+     * The field type's default value.
+     * @type {*}
+     */
+    this.typeDefault = null;
+
+    /**
+     * The field's default value on prototypes.
+     * @type {*}
+     */
+    this.defaultValue = null;
+
+    /**
+     * Whether this field's value should be treated as a long.
+     * @type {boolean}
+     */
+    this.long = util.Long ? types.long[type] !== undefined : /* istanbul ignore next */ false;
+
+    /**
+     * Whether this field's value is a buffer.
+     * @type {boolean}
+     */
+    this.bytes = type === "bytes";
+
+    /**
+     * Resolved type if not a basic type.
+     * @type {?(Type|Enum)}
+     */
+    this.resolvedType = null;
+
+    /**
+     * Sister-field within the extended type if a declaring extension field.
+     * @type {?Field}
+     */
+    this.extensionField = null;
+
+    /**
+     * Sister-field within the declaring namespace if an extended field.
+     * @type {?Field}
+     */
+    this.declaringField = null;
+
+    /**
+     * Internally remembers whether this field is packed.
+     * @type {?boolean}
+     * @private
+     */
+    this._packed = null;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.protobufjs.light.MapField" id="apidoc.element.protobufjs.light.MapField">
+        function <span class="apidocSignatureSpan">protobufjs.light.</span>MapField
+        <span class="apidocSignatureSpan">(name, id, keyType, type, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function MapField(name, id, keyType, type, options) {
+    Field.call(this, name, id, type, options);
+
+    /* istanbul ignore if */
+    if (!util.isString(keyType))
+        throw TypeError("keyType must be a string");
+
+    /**
+     * Key type.
+     * @type {string}
+     */
+    this.keyType = keyType; // toJSON, marker
+
+    /**
+     * Resolved key type if not a basic type.
+     * @type {?ReflectionObject}
+     */
+    this.resolvedKeyType = null;
+
+    // Overrides Field#map
+    this.map = true;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.protobufjs.light.Message" id="apidoc.element.protobufjs.light.Message">
+        function <span class="apidocSignatureSpan">protobufjs.light.</span>Message
+        <span class="apidocSignatureSpan">(properties)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Message(properties) {
+    // not used internally
+    if (properties)
+        for (var keys = Object.keys(properties), i = 0; i &lt; keys.length; ++i)
+            this[keys[i]] = properties[keys[i]];
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.protobufjs.light.Method" id="apidoc.element.protobufjs.light.Method">
+        function <span class="apidocSignatureSpan">protobufjs.light.</span>Method
+        <span class="apidocSignatureSpan">(name, type, requestType, responseType, requestStream, responseStream, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Method(name, type, requestType, responseType, requestStream, responseStream, options) {
+
+    /* istanbul ignore next */
+    if (util.isObject(requestStream)) {
+        options = requestStream;
+        requestStream = responseStream = undefined;
+    } else if (util.isObject(responseStream)) {
+        options = responseStream;
+        responseStream = undefined;
+    }
+
+    /* istanbul ignore if */
+    if (!(type === undefined || util.isString(type)))
+        throw TypeError("type must be a string");
+
+    /* istanbul ignore if */
+    if (!util.isString(requestType))
+        throw TypeError("requestType must be a string");
+
+    /* istanbul ignore if */
+    if (!util.isString(responseType))
+        throw TypeError("responseType must be a string");
+
+    ReflectionObject.call(this, name, options);
+
+    /**
+     * Method type.
+     * @type {string}
+     */
+    this.type = type || "rpc"; // toJSON
+
+    /**
+     * Request type.
+     * @type {string}
+     */
+    this.requestType = requestType; // toJSON, marker
+
+    /**
+     * Whether requests are streamed or not.
+     * @type {boolean|undefined}
+     */
+    this.requestStream = requestStream ? true : undefined; // toJSON
+
+    /**
+     * Response type.
+     * @type {string}
+     */
+    this.responseType = responseType; // toJSON
+
+    /**
+     * Whether responses are streamed or not.
+     * @type {boolean|undefined}
+     */
+    this.responseStream = responseStream ? true : undefined; // toJSON
+
+    /**
+     * Resolved request type.
+     * @type {?Type}
+     */
+    this.resolvedRequestType = null;
+
+    /**
+     * Resolved response type.
+     * @type {?Type}
+     */
+    this.resolvedResponseType = null;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.protobufjs.light.Namespace" id="apidoc.element.protobufjs.light.Namespace">
+        function <span class="apidocSignatureSpan">protobufjs.light.</span>Namespace
+        <span class="apidocSignatureSpan">(name, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Namespace(name, options) {
+    ReflectionObject.call(this, name, options);
+
+    /**
+     * Nested objects by name.
+     * @type {Object.&lt;string,ReflectionObject&gt;|undefined}
+     */
+    this.nested = undefined; // toJSON
+
+    /**
+     * Cached nested objects as an array.
+     * @type {?ReflectionObject[]}
+     * @private
+     */
+    this._nestedArray = null;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.protobufjs.light.OneOf" id="apidoc.element.protobufjs.light.OneOf">
+        function <span class="apidocSignatureSpan">protobufjs.light.</span>OneOf
+        <span class="apidocSignatureSpan">(name, fieldNames, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function OneOf(name, fieldNames, options) {
+    if (!Array.isArray(fieldNames)) {
+        options = fieldNames;
+        fieldNames = undefined;
+    }
+    ReflectionObject.call(this, name, options);
+
+    /* istanbul ignore if */
+    if (!(fieldNames === undefined || Array.isArray(fieldNames)))
+        throw TypeError("fieldNames must be an Array");
+
+    /**
+     * Field names that belong to this oneof.
+     * @type {string[]}
+     */
+    this.oneof = fieldNames || []; // toJSON, marker
+
+    /**
+     * Fields that belong to this oneof as an array for iteration.
+     * @type {Field[]}
+     * @readonly
+     */
+    this.fieldsArray = []; // declared readonly for conformance, possibly not yet added to parent
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.protobufjs.light.Reader" id="apidoc.element.protobufjs.light.Reader">
+        function <span class="apidocSignatureSpan">protobufjs.light.</span>Reader
+        <span class="apidocSignatureSpan">(buffer)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Reader(buffer) {
+
+    /**
+     * Read buffer.
+     * @type {Uint8Array}
+     */
+    this.buf = buffer;
+
+    /**
+     * Read buffer position.
+     * @type {number}
+     */
+    this.pos = 0;
+
+    /**
+     * Read buffer length.
+     * @type {number}
+     */
+    this.len = buffer.length;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+if (process.argv.length &gt; 3 &amp;&amp; /^\d+$/.test(process.argv[3]))
+count = parseInt(process.argv[3], 10);
+process.stdout.write(" x " + count + "\n");
+
+function setupBrowser() {
+protobuf.Writer.create = function create_browser() { return new protobuf.Writer(); };
+protobuf.Reader.create = function create_browser(buf) { return new protobuf.<span class="apidocCodeKeywordSpan">Reader</span>(buf
+); };
+}
+
+switch (process.argv[2]) {
+case "encode-browser":
+    setupBrowser();
+    // eslint-disable-line no-fallthrough
+case "encode":
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.protobufjs.light.ReflectionObject" id="apidoc.element.protobufjs.light.ReflectionObject">
+        function <span class="apidocSignatureSpan">protobufjs.light.</span>ReflectionObject
+        <span class="apidocSignatureSpan">(name, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function ReflectionObject(name, options) {
+
+    if (!util.isString(name))
+        throw TypeError("name must be a string");
+
+    if (options &amp;&amp; !util.isObject(options))
+        throw TypeError("options must be an object");
+
+    /**
+     * Options.
+     * @type {Object.&lt;string,*&gt;|undefined}
+     */
+    this.options = options; // toJSON
+
+    /**
+     * Unique name within its namespace.
+     * @type {string}
+     */
+    this.name = name;
+
+    /**
+     * Parent namespace.
+     * @type {?Namespace}
+     */
+    this.parent = null;
+
+    /**
+     * Whether already resolved or not.
+     * @type {boolean}
+     */
+    this.resolved = false;
+
+    /**
+     * Comment text, if any.
+     * @type {?string}
+     */
+    this.comment = null;
+
+    /**
+     * Defining file name.
+     * @type {?string}
+     */
+    this.filename = null;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.protobufjs.light.Root" id="apidoc.element.protobufjs.light.Root">
+        function <span class="apidocSignatureSpan">protobufjs.light.</span>Root
+        <span class="apidocSignatureSpan">(options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Root(options) {
+    Namespace.call(this, "", options);
+
+    /**
+     * Deferred extension fields.
+     * @type {Field[]}
+     */
+    this.deferred = [];
+
+    /**
+     * Resolved file names of loaded files.
+     * @type {string[]}
+     */
+    this.files = [];
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.protobufjs.light.Service" id="apidoc.element.protobufjs.light.Service">
+        function <span class="apidocSignatureSpan">protobufjs.light.</span>Service
+        <span class="apidocSignatureSpan">(name, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Service(name, options) {
+    Namespace.call(this, name, options);
+
+    /**
+     * Service methods.
+     * @type {Object.&lt;string,Method&gt;}
+     */
+    this.methods = {}; // toJSON, marker
+
+    /**
+     * Cached methods as an array.
+     * @type {?Method[]}
+     * @private
+     */
+    this._methodsArray = null;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.protobufjs.light.Type" id="apidoc.element.protobufjs.light.Type">
+        function <span class="apidocSignatureSpan">protobufjs.light.</span>Type
+        <span class="apidocSignatureSpan">(name, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Type(name, options) {
+    Namespace.call(this, name, options);
+
+    /**
+     * Message fields.
+     * @type {Object.&lt;string,Field&gt;}
+     */
+    this.fields = {};  // toJSON, marker
+
+    /**
+     * Oneofs declared within this namespace, if any.
+     * @type {Object.&lt;string,OneOf&gt;}
+     */
+    this.oneofs = undefined; // toJSON
+
+    /**
+     * Extension ranges, if any.
+     * @type {number[][]}
+     */
+    this.extensions = undefined; // toJSON
+
+    /**
+     * Reserved ranges, if any.
+     * @type {Array.&lt;number[]|string&gt;}
+     */
+    this.reserved = undefined; // toJSON
+
+    /*?
+     * Whether this type is a legacy group.
+     * @type {boolean|undefined}
+     */
+    this.group = undefined; // toJSON
+
+    /**
+     * Cached fields by id.
+     * @type {?Object.&lt;number,Field&gt;}
+     * @private
+     */
+    this._fieldsById = null;
+
+    /**
+     * Cached fields as an array.
+     * @type {?Field[]}
+     * @private
+     */
+    this._fieldsArray = null;
+
+    /**
+     * Cached oneofs as an array.
+     * @type {?OneOf[]}
+     * @private
+     */
+    this._oneofsArray = null;
+
+    /**
+     * Cached constructor.
+     * @type {*}
+     * @private
+     */
+    this._ctor = null;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.protobufjs.light.Writer" id="apidoc.element.protobufjs.light.Writer">
+        function <span class="apidocSignatureSpan">protobufjs.light.</span>Writer
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Writer() {
+
+    /**
+     * Current length.
+     * @type {number}
+     */
+    this.len = 0;
+
+    /**
+     * Operations head.
+     * @type {Object}
+     */
+    this.head = new Op(noop, 0, 0);
+
+    /**
+     * Operations tail
+     * @type {Object}
+     */
+    this.tail = this.head;
+
+    /**
+     * Linked forked states.
+     * @type {?Object}
+     */
+    this.states = null;
+
+    // When a value is written, the writer calculates its byte length and puts it into a linked
+    // list of operations to perform when finish() is called. This both allows us to allocate
+    // buffers of the exact required size and reduces the amount of work we have to do compared
+    // to first calculating over objects and then encoding over objects. In our case, the encoding
+    // part is just a linked list walk calling operations with already prepared values.
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+}
+
+if (process.argv.length &gt; 3 &amp;&amp; /^\d+$/.test(process.argv[3]))
+count = parseInt(process.argv[3], 10);
+process.stdout.write(" x " + count + "\n");
+
+function setupBrowser() {
+protobuf.Writer.create = function create_browser() { return new protobuf.<span class="apidocCodeKeywordSpan">Writer</span>(); };
+protobuf.Reader.create = function create_browser(buf) { return new protobuf.Reader(buf); };
+}
+
+switch (process.argv[2]) {
+case "encode-browser":
+    setupBrowser();
+    // eslint-disable-line no-fallthrough
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.protobufjs.light.common" id="apidoc.element.protobufjs.light.common">
+        function <span class="apidocSignatureSpan">protobufjs.light.</span>common
+        <span class="apidocSignatureSpan">(name, json)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function common(name, json) {
+    if (!commonRe.test(name)) {
+        name = "google/protobuf/" + name + ".proto";
+        json = { nested: { google: { nested: { protobuf: { nested: json } } } } };
+    }
+    common[name] = json;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ * @property {Object.&lt;string,*&gt;} google/protobuf/duration.proto Duration
+ * @property {Object.&lt;string,*&gt;} google/protobuf/empty.proto Empty
+ * @property {Object.&lt;string,*&gt;} google/protobuf/struct.proto Struct, Value, NullValue and ListValue
+ * @property {Object.&lt;string,*&gt;} google/protobuf/timestamp.proto Timestamp
+ * @property {Object.&lt;string,*&gt;} google/protobuf/wrappers.proto Wrappers
+ * @example
+ * // manually provides descriptor.proto (assumes google/protobuf/ namespace and .proto extension)
+ * protobuf.<span class="apidocCodeKeywordSpan">common</span>("descriptor", descriptorJson);
+ *
+ * // manually provides a custom definition (uses my.foo namespace)
+ * protobuf.common("my/foo/bar.proto", myFooBarJson);
+ */
+function common(name, json) {
+if (!commonRe.test(name)) {
+    name = "google/protobuf/" + name + ".proto";
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.protobufjs.light.configure" id="apidoc.element.protobufjs.light.configure">
+        function <span class="apidocSignatureSpan">protobufjs.light.</span>configure
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function configure() {
+    protobuf.Reader._configure(protobuf.BufferReader);
+    protobuf.util._configure();
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+var protobuf = global.protobuf = $require(entries[0]);
+
+// Be nice to AMD
+if (typeof define === "function" &amp;&amp; define.amd)
+    define(["long"], function(Long) {
+        if (Long &amp;&amp; Long.isLong) {
+            protobuf.util.Long = Long;
+            protobuf.<span class="apidocCodeKeywordSpan">configure</span>();
+        }
+        return protobuf;
+    });
+
+// Be nice to CommonJS
+if (typeof module === "object" &amp;&amp; module &amp;&amp; module.exports)
+    module.exports = protobuf;
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.protobufjs.light.decoder" id="apidoc.element.protobufjs.light.decoder">
+        function <span class="apidocSignatureSpan">protobufjs.light.</span>decoder
+        <span class="apidocSignatureSpan">(mtype)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function decoder(mtype) {
+    /* eslint-disable no-unexpected-multiline */
+    var gen = util.codegen("r", "l")
+    ("if(!(r instanceof Reader))")
+        ("r=Reader.create(r)")
+    ("var c=l===undefined?r.len:r.pos+l,m=new this.ctor" + (mtype.fieldsArray.filter(function(field) { return field.map; }).length
+ ? ",k" : ""))
+    ("while(r.pos&lt;c){")
+        ("var t=r.uint32()");
+    if (mtype.group) gen
+        ("if((t&amp;7)===4)")
+            ("break");
+    gen
+        ("switch(t&gt;&gt;&gt;3){");
+
+    var i = 0;
+    for (; i &lt; /* initializes */ mtype.fieldsArray.length; ++i) {
+        var field = mtype._fieldsArray[i].resolve(),
+            type  = field.resolvedType instanceof Enum ? "uint32" : field.type,
+            ref   = "m" + util.safeProp(field.name); gen
+            ("case %d:", field.id);
+
+        // Map fields
+        if (field.map) { gen
+                ("r.skip().pos++") // assumes id 1 + key wireType
+                ("if(%s===util.emptyObject)", ref)
+                    ("%s={}", ref)
+                ("k=r.%s()", field.keyType)
+                ("r.pos++"); // assumes id 2 + value wireType
+            if (types.long[field.keyType] !== undefined) {
+                if (types.basic[type] === undefined) gen
+                ("%s[typeof k===\"object\"?util.longToHash(k):k]=types[%d].decode(r,r.uint32())", ref, i); // can't be groups
+                else gen
+                ("%s[typeof k===\"object\"?util.longToHash(k):k]=r.%s()", ref, type);
+            } else {
+                if (types.basic[type] === undefined) gen
+                ("%s[k]=types[%d].decode(r,r.uint32())", ref, i); // can't be groups
+                else gen
+                ("%s[k]=r.%s()", ref, type);
+            }
+
+        // Repeated fields
+        } else if (field.repeated) { gen
+
+                ("if(!(%s&amp;&amp;%s.length))", ref, ref)
+                    ("%s=[]", ref);
+
+            // Packable (always check for forward and backward compatiblity)
+            if (types.packed[type] !== undefined) gen
+                ("if((t&amp;7)===2){")
+                    ("var c2=r.uint32()+r.pos")
+                    ("while(r.pos&lt;c2)")
+                        ("%s.push(r.%s())", ref, type)
+                ("}else");
+
+            // Non-packed
+            if (types.basic[type] === undefined) gen(field.resolvedType.group
+                    ? "%s.push(types[%d].decode(r))"
+                    : "%s.push(types[%d].decode(r,r.uint32()))", ref, i);
+            else gen
+                    ("%s.push(r.%s())", ref, type);
+
+        // Non-repeated
+        } else if (types.basic[type] === undefined) gen(field.resolvedType.group
+                ? "%s=types[%d].decode(r)"
+                : "%s=types[%d].decode(r,r.uint32())", ref, i);
+        else gen
+                ("%s=r.%s()", ref, type);
+        gen
+                ("break");
+    // Unknown fields
+    } gen
+            ("default:")
+                ("r.skipType(t&amp;7)")
+                ("break")
+
+        ("}")
+    ("}");
+
+    // Field presence
+    for (i = 0; i &lt; mtype._fieldsArray.length; ++i) {
+        var rfield = mtype._fieldsArray[i];
+        if (rfield.required) gen
+    ("if(!m.hasOwnProperty(%j))", rfield.name)
+        ("throw util.ProtocolError(%j,{instance:m})", missing(rfield));
+    }
+
+    return gen
+    ("return m");
+    /* eslint-enable no-unexpected-multiline */
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.protobufjs.light.encoder" id="apidoc.element.protobufjs.light.encoder">
+        function <span class="apidocSignatureSpan">protobufjs.light.</span>encoder
+        <span class="apidocSignatureSpan">(mtype)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function encoder(mtype) {
+    /* eslint-disable no-unexpected-multiline, block-scoped-var, no-redeclare */
+    var gen = util.codegen("m", "w")
+    ("if(!w)")
+        ("w=Writer.create()");
+
+    var i, ref;
+
+    // "when a message is serialized its known fields should be written sequentially by field number"
+    var fields = /* initializes */ mtype.fieldsArray.slice().sort(util.compareFieldsById);
+
+    for (var i = 0; i &lt; fields.length; ++i) {
+        var field    = fields[i].resolve(),
+            index    = mtype._fieldsArray.indexOf(field),
+            type     = field.resolvedType instanceof Enum ? "uint32" : field.type,
+            wireType = types.basic[type];
+            ref      = "m" + util.safeProp(field.name);
+
+        // Map fields
+        if (field.map) {
+            gen
+    ("if(%s!=null&amp;&amp;m.hasOwnProperty(%j)){", ref, field.name) // !== undefined &amp;&amp; !== null
+        ("for(var ks=Object.keys(%s),i=0;i&lt;ks.length;++i){", ref)
+            ("w.uint32(%d).fork().uint32(%d).%s(ks[i])", (field.id &lt;&lt; 3 | 2) &gt;&gt;&gt; 0, 8 | types.mapKey[field.keyType], field.keyType
+);
+            if (wireType === undefined) gen
+            ("types[%d].encode(%s[ks[i]],w.uint32(18).fork()).ldelim().ldelim()", index, ref); // can't be groups
+            else gen
+            (".uint32(%d).%s(%s[ks[i]]).ldelim()", 16 | wireType, type, ref);
+            gen
+        ("}")
+    ("}");
+
+            // Repeated fields
+        } else if (field.repeated) { gen
+    ("if(%s!=null&amp;&amp;%s.length){", ref, ref); // !== undefined &amp;&amp; !== null
+
+            // Packed repeated
+            if (field.packed &amp;&amp; types.packed[type] !== undefined) { gen
+
+        ("w.uint32(%d).fork()", (field.id &lt;&lt; 3 | 2) &gt;&gt;&gt; 0)
+        ("for(var i=0;i&lt;%s.length;++i)", ref)
+            ("w.%s(%s[i])", type, ref)
+        ("w.ldelim()");
+
+            // Non-packed
+            } else { gen
+
+        ("for(var i=0;i&lt;%s.length;++i)", ref);
+                if (wireType === undefined)
+            genTypePartial(gen, field, index, ref + "[i]");
+                else gen
+            ("w.uint32(%d).%s(%s[i])", (field.id &lt;&lt; 3 | wireType) &gt;&gt;&gt; 0, type, ref);
+
+            } gen
+    ("}");
+
+        // Non-repeated
+        } else {
+            if (field.optional) gen
+    ("if(%s!=null&amp;&amp;m.hasOwnProperty(%j))", ref, field.name); // !== undefined &amp;&amp; !== null
+
+            if (wireType === undefined)
+        genTypePartial(gen, field, index, ref);
+            else gen
+        ("w.uint32(%d).%s(%s)", (field.id &lt;&lt; 3 | wireType) &gt;&gt;&gt; 0, type, ref);
+
+        }
+    }
+
+    return gen
+    ("return w");
+    /* eslint-enable no-unexpected-multiline, block-scoped-var, no-redeclare */
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.protobufjs.light.load" id="apidoc.element.protobufjs.light.load">
+        function <span class="apidocSignatureSpan">protobufjs.light.</span>load
+        <span class="apidocSignatureSpan">(filename, root, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function load(filename, root, callback) {
+    if (typeof root === "function") {
+        callback = root;
+        root = new protobuf.Root();
+    } else if (!root)
+        root = new protobuf.Root();
+    return root.load(filename, callback);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+message AwesomeMessage {
+string awesome_field = 1; // becomes awesomeField
+}
+```
+
+```js
+protobuf.<span class="apidocCodeKeywordSpan">load</span>("awesome.proto", function(err, root) {
+if (err)
+    throw err;
+
+// Obtain a message type
+var AwesomeMessage = root.lookupType("awesomepackage.AwesomeMessage");
+
+// Exemplary payload
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.protobufjs.light.loadSync" id="apidoc.element.protobufjs.light.loadSync">
+        function <span class="apidocSignatureSpan">protobufjs.light.</span>loadSync
+        <span class="apidocSignatureSpan">(filename, root)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function loadSync(filename, root) {
+    if (!root)
+        root = new protobuf.Root();
+    return root.loadSync(filename);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.protobufjs.light.parse" id="apidoc.element.protobufjs.light.parse">
+        function <span class="apidocSignatureSpan">protobufjs.light.</span>parse
+        <span class="apidocSignatureSpan">(source, root, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function parse(source, root, options) {
+    /* eslint-disable callback-return */
+    if (!(root instanceof Root)) {
+        options = root;
+        root = new Root();
+    }
+    if (!options)
+        options = parse.defaults;
+
+    var tn = tokenize(source),
+        next = tn.next,
+        push = tn.push,
+        peek = tn.peek,
+        skip = tn.skip,
+        cmnt = tn.cmnt;
+
+    var head = true,
+        pkg,
+        imports,
+        weakImports,
+        syntax,
+        isProto3 = false;
+
+    var ptr = root;
+
+    var applyCase = options.keepCase ? function(name) { return name; } : camelCase;
+
+    /* istanbul ignore next */
+    function illegal(token, name, insideTryCatch) {
+        var filename = parse.filename;
+        if (!insideTryCatch)
+            parse.filename = null;
+        return Error("illegal " + (name || "token") + " '" + token + "' (" + (filename ? filename + ", " : "") + "line " + tn.line
+() + ")");
+    }
+
+    function readString() {
+        var values = [],
+            token;
+        do {
+            /* istanbul ignore if */
+            if ((token = next()) !== "\"" &amp;&amp; token !== "'")
+                throw illegal(token);
+
+            values.push(next());
+            skip(token);
+            token = peek();
+        } while (token === "\"" || token === "'");
+        return values.join("");
+    }
+
+    function readValue(acceptTypeRef) {
+        var token = next();
+        switch (token) {
+            case "'":
+            case "\"":
+                push(token);
+                return readString();
+            case "true": case "TRUE":
+                return true;
+            case "false": case "FALSE":
+                return false;
+        }
+        try {
+            return parseNumber(token, /* insideTryCatch */ true);
+        } catch (e) {
+
+            /* istanbul ignore else */
+            if (acceptTypeRef &amp;&amp; typeRefRe.test(token))
+                return token;
+
+            /* istanbul ignore next */
+            throw illegal(token, "value");
+        }
+    }
+
+    function readRanges(target, acceptStrings) {
+        var token, start;
+        do {
+            if (acceptStrings &amp;&amp; ((token = peek()) === "\"" || token === "'"))
+                target.push(readString());
+            else
+                target.push([ start = parseId(next()), skip("to", true) ? parseId(next()) : start ]);
+        } while (skip(",", true));
+        skip(";");
+    }
+
+    function parseNumber(token, insideTryCatch) {
+        var sign = 1;
+        if (token.charAt(0) === "-") {
+            sign = -1;
+            token = token.substring(1);
+        }
+        switch (token) {
+            case "inf": case "INF": case "Inf":
+                return sign * Infinity;
+            case "nan": case "NAN": case "Nan": case "NaN":
+                return NaN;
+            case "0":
+                return 0;
+        }
+        if (base10Re.test(token))
+            return sign * parseInt(token, 10);
+        if (base16Re.test(token))
+            return sign * parseInt(token, 16);
+        if (base8Re.test(token))
+            return sign * parseInt(token, 8);
+
+        /* istanbul ignore else */
+        if (numberRe.test(token))
+            return sign * parseFloat(token);
+
+        /* istanbul ignore next */
+        throw illegal(token, "number", insideTryCatch);
+    }
+
+    function parseId(token, acceptNegative) {
+        switch (token) {
+            case "max": case "MAX": case "Max":
+                return 536870911;
+            case "0":
+                return 0;
+        }
+
+        /* istanbul ignore if */
+        if (!acceptNegative &amp;&amp; token.charAt(0) === "-")
+            throw illegal(token, "id");
+
+        if (base10NegRe.test(token))
+            return parseInt(token, 10);
+        if (base16NegRe.test(token))
+            return parseInt(token, 16);
+
+        /* istanbul ignore else */
+        if (base8NegRe.test(token))
+            return parseInt(token, 8);
+
+        /* istanbul ignore next */
+        throw illeg ...</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+        protobuf.Root.fromJSON(json).resolveAll();
+return;
+}
+
+var Test, data, count;
+
+if (process.argv.indexOf("--alt") &lt; 0) {
+root = protobuf.<span class="apidocCodeKeywordSpan">parse</span>(fs.readFileSync(require.resolve("../bench/data/bench.proto
+")).toString("utf8")).root;
+Test = root.lookup("Test");
+json = JSON.stringify(root);
+data = require("../bench/data/bench.json");
+count = 10000000;
+process.stdout.write("bench.proto");
+} else {
+root = protobuf.parse(fs.readFileSync(require.resolve("../tests/data/mapbox/vector_tile.proto")).toString("utf8&amp;#
+x22;)).root;
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.protobufjs.light.tokenize" id="apidoc.element.protobufjs.light.tokenize">
+        function <span class="apidocSignatureSpan">protobufjs.light.</span>tokenize
+        <span class="apidocSignatureSpan">(source)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function tokenize(source) {
+    /* eslint-disable callback-return */
+    source = source.toString();
+
+    var offset = 0,
+        length = source.length,
+        line = 1,
+        commentType = null,
+        commentText = null,
+        commentLine = 0;
+
+    var stack = [];
+
+    var stringDelim = null;
+
+    /* istanbul ignore next */
+    /**
+     * Creates an error for illegal syntax.
+     * @param {string} subject Subject
+     * @returns {Error} Error created
+     * @inner
+     */
+    function illegal(subject) {
+        return Error("illegal " + subject + " (line " + line + ")");
+    }
+
+    /**
+     * Reads a string till its end.
+     * @returns {string} String read
+     * @inner
+     */
+    function readString() {
+        var re = stringDelim === "'" ? stringSingleRe : stringDoubleRe;
+        re.lastIndex = offset - 1;
+        var match = re.exec(source);
+        if (!match)
+            throw illegal("string");
+        offset = re.lastIndex;
+        push(stringDelim);
+        stringDelim = null;
+        return unescape(match[1]);
+    }
+
+    /**
+     * Gets the character at `pos` within the source.
+     * @param {number} pos Position
+     * @returns {string} Character
+     * @inner
+     */
+    function charAt(pos) {
+        return source.charAt(pos);
+    }
+
+    /**
+     * Sets the current comment text.
+     * @param {number} start Start offset
+     * @param {number} end End offset
+     * @returns {undefined}
+     * @inner
+     */
+    function setComment(start, end) {
+        commentType = source.charAt(start++);
+        commentLine = line;
+        var lines = source
+            .substring(start, end)
+            .split(setCommentSplitRe);
+        for (var i = 0; i &lt; lines.length; ++i)
+            lines[i] = lines[i].replace(setCommentRe, "").trim();
+        commentText = lines
+            .join("\n")
+            .trim();
+    }
+
+    /**
+     * Obtains the next token.
+     * @returns {?string} Next token or `null` on eof
+     * @inner
+     */
+    function next() {
+        if (stack.length &gt; 0)
+            return stack.shift();
+        if (stringDelim)
+            return readString();
+        var repeat,
+            prev,
+            curr,
+            start,
+            isComment;
+        do {
+            if (offset === length)
+                return null;
+            repeat = false;
+            while (whitespaceRe.test(curr = charAt(offset))) {
+                if (curr === "\n")
+                    ++line;
+                if (++offset === length)
+                    return null;
+            }
+            if (charAt(offset) === "/") {
+                if (++offset === length)
+                    throw illegal("comment");
+                if (charAt(offset) === "/") { // Line
+                    isComment = charAt(start = offset + 1) === "/";
+                    while (charAt(++offset) !== "\n")
+                        if (offset === length)
+                            return null;
+                    ++offset;
+                    if (isComment)
+                        setComment(start, offset - 1);
+                    ++line;
+                    repeat = true;
+                } else if ((curr = charAt(offset)) === "*") { /* Block */
+                    isComment = charAt(start = offset + 1) === "*";
+                    do {
+                        if (curr === "\n")
+                            ++line;
+                        if (++offset === length)
+                            throw illegal("comment");
+                        prev = curr;
+                        curr = charAt(offset);
+                    } while (prev !== "*" || curr !== "/");
+                    ++offset;
+                    if (isComment)
+                        setComment(start, offset - 2);
+                    repeat = true;
+                } else
+                    return "/";
+            }
+        } while (repeat);
+
+        // offset !== length if we got here
+
+        var end = offset;
+        delimRe.lastIndex = 0; ...</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.protobufjs.light.verifier" id="apidoc.element.protobufjs.light.verifier">
+        function <span class="apidocSignatureSpan">protobufjs.light.</span>verifier
+        <span class="apidocSignatureSpan">(mtype)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function verifier(mtype) {
+    /* eslint-disable no-unexpected-multiline */
+
+    var gen = util.codegen("m")
+    ("if(typeof m!==\"object\"||m===null)")
+        ("return%j", "object expected");
+    var oneofs = mtype.oneofsArray,
+        seenFirstField = {};
+    if (oneofs.length) gen
+    ("var p={}");
+
+    for (var i = 0; i &lt; /* initializes */ mtype.fieldsArray.length; ++i) {
+        var field = mtype._fieldsArray[i].resolve(),
+            ref   = "m" + util.safeProp(field.name);
+
+        if (field.optional) gen
+        ("if(%s!=null&amp;&amp;m.hasOwnProperty(%j)){", ref, field.name); // !== undefined &amp;&amp; !== null
+
+        // map fields
+        if (field.map) { gen
+            ("if(!util.isObject(%s))", ref)
+                ("return%j", invalid(field, "object"))
+            ("var k=Object.keys(%s)", ref)
+            ("for(var i=0;i&lt;k.length;++i){");
+                genVerifyKey(gen, field, "k[i]");
+                genVerifyValue(gen, field, i, ref + "[k[i]]")
+            ("}");
+
+        // repeated fields
+        } else if (field.repeated) { gen
+            ("if(!Array.isArray(%s))", ref)
+                ("return%j", invalid(field, "array"))
+            ("for(var i=0;i&lt;%s.length;++i){", ref);
+                genVerifyValue(gen, field, i, ref + "[i]")
+            ("}");
+
+        // required or present fields
+        } else {
+            if (field.partOf) {
+                var oneofProp = util.safeProp(field.partOf.name);
+                if (seenFirstField[field.partOf.name] === 1) gen
+            ("if(p%s===1)", oneofProp)
+                ("return%j", field.partOf.name + ": multiple values");
+                seenFirstField[field.partOf.name] = 1;
+                gen
+            ("p%s=1", oneofProp);
+            }
+            genVerifyValue(gen, field, i, ref);
+        }
+        if (field.optional) gen
+        ("}");
+    }
+    return gen
+    ("return null");
+    /* eslint-enable no-unexpected-multiline */
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 </div>
@@ -13099,20 +14990,19 @@ switch (field.type) {
     return value &amp;&amp; typeof value === "object";
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-    for (var i = 0; i &lt; /* initializes */ mtype.fieldsArray.length; ++i) {
-var field = mtype._fieldsArray[i].resolve(),
     ref   = "m" + util.safeProp(field.name);
+
+if (field.optional) gen
+("if(%s!=null&amp;&amp;m.hasOwnProperty(%j)){", ref, field.name); // !== undefined &amp;&amp; !== null
 
 // map fields
 if (field.map) { gen
-    ("if(%s!=null){", ref) // !== undefined &amp;&amp; !== null
-        ("if(!util.<span class="apidocCodeKeywordSpan">isObject</span>(%s))", ref)
-            ("return%j", invalid(field, "object"))
-        ("var k=Object.keys(%s)", ref)
-        ("for(var i=0;i&lt;k.length;++i){");
-            genVerifyKey(gen, field, "k[i]");
-            genVerifyValue(gen, field, i, ref + "[k[i]]")
-        ("}")
+    ("if(!util.<span class="apidocCodeKeywordSpan">isObject</span>(%s))", ref)
+        ("return%j", invalid(field, "object"))
+    ("var k=Object.keys(%s)", ref)
+    ("for(var i=0;i&lt;k.length;++i){");
+        genVerifyKey(gen, field, "k[i]");
+        genVerifyValue(gen, field, i, ref + "[k[i]]")
     ("}");
 ...</pre></li>
     </ul>
@@ -14734,11 +16624,11 @@ return;
 var Test, data, count;
 
 if (process.argv.indexOf("--alt") &lt; 0) {
-root = protobuf.parse(fs.readFileSync(require.resolve("../bench/bench.proto")).<span class="apidocCodeKeywordSpan">toString
-</span>("utf8")).root;
+root = protobuf.parse(fs.readFileSync(require.resolve("../bench/data/bench.proto")).<span class="apidocCodeKeywordSpan
+">toString</span>("utf8")).root;
 Test = root.lookup("Test");
 json = JSON.stringify(root);
-data = require("../bench/bench.json");
+data = require("../bench/data/bench.json");
 count = 10000000;
 process.stdout.write("bench.proto");
 } else {
@@ -15633,23 +17523,23 @@ var child_process = require("child_process");
     return fromBits(val.low, val.high, val.unsigned);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-* Calling `Message.verify` with any object returns `null` if the object can be encoded as-is and otherwise the error as a string
+* **Plain JavaScript objects** that just so happen to be composed in a way satisfying the requirements of a valid message as well
 .
-* Calling `Message.create` or `Message.encode` must be called with a valid message.
-* Calling `Message.fromObject` with any object naively converts all values to the optimal JS type.
 
-| Field type | Expected JS type (create, encode) | Naive conversion (fromObject)
-|------------|-----------------------------------|------------------------------
-| s-/u-/int32&lt;br /&gt;s-/fixed32 | `Number` (32 bit integer) | `value | 0` if signed&lt;br /&gt; `value &gt;&gt;&amp;#
+In a nutshell, the wire format writer understands the following types:
+
+| Field type | Expected JS type (create, encode) | Conversion (fromObject)
+|------------|-----------------------------------|------------------------
+| s-/u-/int32&lt;br /&gt;s-/fixed32 | `number` (32 bit integer) | `value | 0` if signed&lt;br /&gt;`value &gt;&gt;&amp;#
 x3e; 0` if unsigned
-| s-/u-/int64&lt;br /&gt;s-/fixed64 | `Long`-like (optimal)&lt;br /&gt;`Number` (53 bit integer) | `Long.<span class="apidocCodeKeywordSpan
+| s-/u-/int64&lt;br /&gt;s-/fixed64 | `Long`-like (optimal)&lt;br /&gt;`number` (53 bit integer) | `Long.<span class="apidocCodeKeywordSpan
 ">fromValue</span>(value)` with long.js&lt;br /&gt;`parseInt(value, 10)` otherwise
-| float&lt;br /&gt;double | `Number` | `Number(value)`
-| bool | `Boolean` | `Boolean(value)`
-| string | `String` | `String(value)`
-| bytes | `Uint8Array` (optimal)&lt;br /&gt;`Buffer` (optimal under node)&lt;br /&gt;`Array.&lt;Number&gt;` (8 bit integers
-)&lt;br /&gt;`String` (base64) | `base64.decode(value)` if a String&lt;br /&gt;`Object` with non-zero `.length` is kept
-| enum | `Number` (32 bit integer) | Looks up the numeric id if a string
+| float&lt;br /&gt;double | `number` | `Number(value)`
+| bool | `boolean` | `Boolean(value)`
+| string | `string` | `String(value)`
+| bytes | `Uint8Array` (optimal)&lt;br /&gt;`Buffer` (optimal under node)&lt;br /&gt;`Array.&lt;number&gt;` (8 bit integers
+) | `base64.decode(value)` if a `string`&lt;br /&gt;`Object` with non-zero `.length` is assumed to be buffer-like
+| enum | `number` (32 bit integer) | Looks up the numeric id if a `string`
 | message | Valid message | `Message.fromObject(value)`
 ...</pre></li>
     </ul>
@@ -16957,11 +18847,11 @@ return;
 var Test, data, count;
 
 if (process.argv.indexOf("--alt") &lt; 0) {
-root = protobuf.parse(fs.readFileSync(require.resolve("../bench/bench.proto")).<span class="apidocCodeKeywordSpan">toString
-</span>("utf8")).root;
+root = protobuf.parse(fs.readFileSync(require.resolve("../bench/data/bench.proto")).<span class="apidocCodeKeywordSpan
+">toString</span>("utf8")).root;
 Test = root.lookup("Test");
 json = JSON.stringify(root);
-data = require("../bench/bench.json");
+data = require("../bench/data/bench.json");
 count = 10000000;
 process.stdout.write("bench.proto");
 } else {
@@ -17347,11 +19237,11 @@ return;
 var Test, data, count;
 
 if (process.argv.indexOf("--alt") &lt; 0) {
-root = protobuf.parse(fs.readFileSync(require.resolve("../bench/bench.proto")).<span class="apidocCodeKeywordSpan">toString
-</span>("utf8")).root;
+root = protobuf.parse(fs.readFileSync(require.resolve("../bench/data/bench.proto")).<span class="apidocCodeKeywordSpan
+">toString</span>("utf8")).root;
 Test = root.lookup("Test");
 json = JSON.stringify(root);
-data = require("../bench/bench.json");
+data = require("../bench/data/bench.json");
 count = 10000000;
 process.stdout.write("bench.proto");
 } else {
@@ -17410,23 +19300,27 @@ x22;)).root;
     return offset - start;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-works like `Message.encode` but additionally prepends the length of the message as a varint.
+| Field type | Expected JS type (create, encode) | Conversion (fromObject)
+|------------|-----------------------------------|------------------------
+| s-/u-/int32&lt;br /&gt;s-/fixed32 | `number` (32 bit integer) | `value | 0` if signed&lt;br /&gt;`value &gt;&gt;&amp;#
+x3e; 0` if unsigned
+| s-/u-/int64&lt;br /&gt;s-/fixed64 | `Long`-like (optimal)&lt;br /&gt;`number` (53 bit integer) | `Long.fromValue(value
+)` with long.js&lt;br /&gt;`parseInt(value, 10)` otherwise
+| float&lt;br /&gt;double | `number` | `Number(value)`
+| bool | `boolean` | `Boolean(value)`
+| string | `string` | `String(value)`
+| bytes | `Uint8Array` (optimal)&lt;br /&gt;`Buffer` (optimal under node)&lt;br /&gt;`Array.&lt;number&gt;` (8 bit integers
+) | `base64.<span class="apidocCodeKeywordSpan">decode</span>(value)` if a `string`&lt;br /&gt;`Object` with non-zero `.length
+` is assumed to be buffer-like
+| enum | `number` (32 bit integer) | Looks up the numeric id if a `string`
+| message | Valid message | `Message.fromObject(value)`
 
-* **Message.decode**(reader: `Reader|Uint8Array`): `Message`&lt;br /&gt;
-is an automatically generated message specific decoder. If required fields are missing, it throws a `util.ProtocolError` with an
- `instance` property set to the so far decoded message. If the wire format is invalid, it throws an `Error`. The result is a runtime
- message.
-
-```js
-try {
-  var decodedMessage = AwesomeMessage.<span class="apidocCodeKeywordSpan">decode</span>(buffer);
-} catch (e) {
-    if (e instanceof protobuf.util.ProtocolError) {
-      // e.instance holds the so far decoded message with missing required fields
-    } else {
-      // wire format is invalid
-    }
-}
+* Explicit `undefined` and `null` are considered as not set if the field is optional.
+* Repeated fields are `Array.&lt;T&gt;`.
+* Map fields are `Object.&lt;string,T&gt;` with the key being the string representation of the respective value or an 8 characters
+ long binary hash string for `Long`-likes.
+* Types marked as *optimal* provide the best performance because no conversion step (i.e. number to low and high bits or base64
+string to buffer) is required.
 ...</pre></li>
     </ul>
 
@@ -17477,8 +19371,8 @@ try {
 ```
 
 * **Message.encode**(message: `Message|Object` [, writer: `Writer`]): `Writer`&lt;br /&gt;
-is an automatically generated message specific encoder expecting a valid message or plain object. Note that this method does not
- implicitly verify the message and that it's up to the user to make sure that the data can actually be encoded properly.
+encodes a **message instance** or valid **plain JavaScript object**. This method does not implicitly verify the message and it&amp;#
+x27;s up to the user to make sure that the payload is a valid message.
 
 ```js
 var buffer = AwesomeMessage.<span class="apidocCodeKeywordSpan">encode</span>(message).finish();
@@ -17488,9 +19382,8 @@ var buffer = AwesomeMessage.<span class="apidocCodeKeywordSpan">encode</span>(me
 works like `Message.encode` but additionally prepends the length of the message as a varint.
 
 * **Message.decode**(reader: `Reader|Uint8Array`): `Message`&lt;br /&gt;
-is an automatically generated message specific decoder. If required fields are missing, it throws a `util.ProtocolError` with an
- `instance` property set to the so far decoded message. If the wire format is invalid, it throws an `Error`. The result is a runtime
- message.
+decodes a buffer to a **message instance**. If required fields are missing, it throws a `util.ProtocolError` with an `instance`
+property set to the so far decoded message. If the wire format is invalid, it throws an `Error`.
 ...</pre></li>
     </ul>
 
@@ -18183,11 +20076,11 @@ return;
 var Test, data, count;
 
 if (process.argv.indexOf("--alt") &lt; 0) {
-root = protobuf.parse(fs.readFileSync(require.<span class="apidocCodeKeywordSpan">resolve</span>("../bench/bench.proto"
-;)).toString("utf8")).root;
+root = protobuf.parse(fs.readFileSync(require.<span class="apidocCodeKeywordSpan">resolve</span>("../bench/data/bench.proto
+")).toString("utf8")).root;
 Test = root.lookup("Test");
 json = JSON.stringify(root);
-data = require("../bench/bench.json");
+data = require("../bench/data/bench.json");
 count = 10000000;
 process.stdout.write("bench.proto");
 } else {
